@@ -179,7 +179,7 @@ export const ItemsList = ({ data }: any) => {
               {/* <Pagin></Pagin> */}
             </div>
           </div>
-          <div className="grid col-span-4 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-10">
+          <div className="grid col-span-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
             {currentPosts.map((item: any) => {
               return (
                 <Card key={item.id}>
