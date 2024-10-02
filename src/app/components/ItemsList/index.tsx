@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import { Select, SelectItem } from "@nextui-org/react";
+import { Select, SelectItem, Image } from "@nextui-org/react";
 import { Button } from "@nextui-org/button";
 import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/card";
 import { Divider, DatePicker, Pagination } from "@nextui-org/react";
@@ -30,9 +30,11 @@ export const ItemsList = ({ data }: any) => {
   const [activeCompany, setActiveCompany] = useState<string | undefined>(
     undefined
   );
+
   const lastPostIndex = currentPage * postPerPage;
   const firstPostInsex = lastPostIndex - postPerPage;
   const currentPosts = filteredData.slice(firstPostInsex, lastPostIndex);
+
   useEffect(() => {
     const hash = {
       country: [] as string[],
@@ -117,8 +119,8 @@ export const ItemsList = ({ data }: any) => {
 
   return (
     <>
-      <div className="grid grid-cols-1 lg:grid-cols-5 gap-16">
-        <div className="grid grid-cols-1 col-span-1">
+      <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 dark bg-background text-foreground">
+        <div className="col-span-1">
           <SaidBar></SaidBar>
         </div>
 
@@ -176,33 +178,68 @@ export const ItemsList = ({ data }: any) => {
                   })}
                 </Select>
               )}
-              {/* <Pagin></Pagin> */}
             </div>
           </div>
-          <div className="grid col-span-4 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
+
+          <div className="grid col-span-4 grid-cols-1 xl:grid-cols-3 gap-10">
             {currentPosts.map((item: any) => {
               return (
-                <Card key={item.id}>
+                // <Card key={item.id} className="">
+                //   <CardHeader className="flex flex-col gap-3 ">
+                //     <div className="flex flex-col">
+                //       <p className="text-md">{item.title}</p>
+                //       <a
+                //         href={item.link}
+                //         target="_blank"
+                //         className="text-small text-default-500"
+                //       >
+                //         {item.link}
+                //       </a>
+                //     </div>
+                //     <div className="w-full">
+                //       <img src={item.img} alt="" className="max-h-[200px]" />
+                //     </div>
+                //   </CardHeader>
+                //   <Divider />
+                //   <CardBody>
+                //     <p className="trim-text">{item.text}</p>
+                //   </CardBody>
+                //   <CardFooter className="flex gap-2 items-center">
+                //     <Chip>{item.category}</Chip>
+                //     <Link href={`details/${item.id}`}>
+                //       <Button size="sm" color="primary">
+                //         details
+                //       </Button>
+                //     </Link>
+                //   </CardFooter>
+                //   <Divider />
+                // </Card>
+                <Card key={item.id} className="p-3" isBlurred>
                   <CardHeader className="flex flex-col gap-3 ">
-                    <div className="flex flex-col">
+                    <Image
+                      isZoomed
+                      alt="Card background"
+                      className="object-cover rounded-xl w-96 h-48"
+                      src={item.img}
+                    />
+                    <div className="flex flex-col w-full">
                       <p className="text-md">{item.title}</p>
                       <a
                         href={item.link}
                         target="_blank"
-                        className="text-small text-default-500"
+                        className="text-small  text-blue-300"
                       >
                         {item.link}
                       </a>
                     </div>
-                    <div className="w-full">
-                      <img src={item.img} alt="" className="max-h-[200px]" />
-                    </div>
                   </CardHeader>
                   <Divider />
                   <CardBody>
-                    <p className="trim-text">{item.text}</p>
+                    <p className="trim-text text-xs text-gray-300">
+                      {item.text}
+                    </p>
                   </CardBody>
-                  <CardFooter className="flex gap-2 items-center">
+                  <CardFooter className="flex gap-2 items-center justify-end">
                     <Chip>{item.category}</Chip>
                     <Link href={`details/${item.id}`}>
                       <Button size="sm" color="primary">
@@ -210,7 +247,6 @@ export const ItemsList = ({ data }: any) => {
                       </Button>
                     </Link>
                   </CardFooter>
-                  <Divider />
                 </Card>
               );
             })}
@@ -228,59 +264,3 @@ export const ItemsList = ({ data }: any) => {
     </>
   );
 };
-
-{
-  /* <div className="flex items-center mb-10">
-{countries.length > 1 && (
-  <Select
-    placeholder="country"
-    name="activeCountry"
-    className="max-w-[200px]"
-    onChange={changeValue}
-  >
-    {countries.map((country) => {
-      return <SelectItem key={country}>{country}</SelectItem>;
-    })}
-  </Select>
-)}
-
-{categories.length > 1 && (
-  <Select
-    placeholder="category"
-    name="activeCategory"
-    className="max-w-[200px]"
-    onChange={changeValue}
-  >
-    {categories.map((category) => {
-      return <SelectItem key={category}>{category}</SelectItem>;
-    })}
-  </Select>
-)}
-
-{types.length > 1 && (
-  <Select
-    placeholder="type"
-    name="activeType"
-    className="max-w-[200px]"
-    onChange={changeValue}
-  >
-    {types.map((type) => {
-      return <SelectItem key={type}>{type}</SelectItem>;
-    })}
-  </Select>
-)}
-
-{companies.length > 1 && (
-  <Select
-    placeholder="company"
-    name="activeCompany"
-    className="max-w-[200px]"
-    onChange={changeValue}
-  >
-    {companies.map((company) => {
-      return <SelectItem key={company}>{company}</SelectItem>;
-    })}
-  </Select>
-)}
-</div> */
-}
