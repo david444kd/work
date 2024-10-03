@@ -120,9 +120,7 @@ export const ItemsList = ({ data }: any) => {
   return (
     <>
       <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 dark bg-background text-foreground">
-        <div className="col-span-1">
-          <SaidBar></SaidBar>
-        </div>
+        <div className="col-span-1">{/* <SaidBar></SaidBar> */}</div>
 
         <div className="col-span-1 lg:col-span-4">
           <div className="grid col-span-4 mt-28">

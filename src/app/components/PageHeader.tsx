@@ -7,10 +7,12 @@ import {
   Button,
 } from "@nextui-org/react";
 import { AcmeLogo } from "../components/AcmeLogo.";
+import App from "../components/ItemsList/navigation-header-with-brand-colors/App";
 export const PageHeader = () => {
   return (
-    <div className="mb-20">
-      <Navbar
+    <div className="w-screen flex items-start justify-center">
+      <App></App>
+      {/* <Navbar
         maxWidth="full"
         className="flex h-24 z-50 max-w-none w-full  items-center justify-center data-[menu-open=true]:border-none fixed top-0 inset-x-0 backdrop-blur-lg data-[menu-open=true]:backdrop-blur-xl backdrop-saturate-150 bg-background/70"
       >
@@ -65,7 +67,7 @@ export const PageHeader = () => {
             </Button>
           </NavbarItem>
         </NavbarContent>
-      </Navbar>
+      </Navbar> */}
     </div>
   );
 };

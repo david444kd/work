@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark bg-background text-foreground">
       <body className="relative bg-background">
-        <NextUIProvider className="min-h-full py-8 px-10">
+        <NextUIProvider className="min-h-full ">
           <PageHeader />
           {children}
           <PageFooter />
