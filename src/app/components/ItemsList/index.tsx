@@ -7,7 +7,7 @@ import { Divider, Pagination } from "@nextui-org/react";
 import { Chip } from "@nextui-org/chip";
 import { useState } from "react";
 import { useFilter } from "../FilterContext";
-
+import App from "../ItemsList/sidebar/sidebar-with-sections/App";
 export const ItemsList = ({ data }: { data: any[] }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 12;
@@ -30,7 +30,9 @@ export const ItemsList = ({ data }: { data: any[] }) => {
 
   return (
     <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 dark bg-background text-foreground">
-      <div className="col-span-1">{/* <SaidBar></SaidBar> */}</div>
+      <div className="col-span-1">
+        <App></App>
+      </div>
 
       <div className="col-span-1 lg:col-span-4">
         <div className="grid col-span-4 mt-28">

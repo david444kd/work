@@ -108,10 +108,10 @@ export default function Header() {
   };
 
   return (
-    <div className="w-full">
+    <div className="w-full fixed z-50">
       <Navbar
         classNames={{
-          base: "bg-primary",
+          // base: "bg-primary",
           wrapper: "px-4 sm:px-6",
           item: "data-[active=true]:text-primary",
         }}
