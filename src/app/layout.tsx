@@ -3,6 +3,7 @@ import "./globals.css";
 import { NextUIProvider } from "@nextui-org/react";
 import { PageHeader } from "./components/PageHeader";
 import { PageFooter } from "./components/PageFooter";
+import { FilterProvider } from "../app/components/FilterContext";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -17,11 +18,13 @@ export default function RootLayout({
   return (
     <html lang="en" className="dark bg-background text-foreground">
       <body className="relative bg-background">
-        <NextUIProvider className="min-h-full ">
-          <PageHeader />
-          {children}
-          <PageFooter />
-        </NextUIProvider>
+        <FilterProvider>
+          <NextUIProvider className="min-h-full ">
+            <PageHeader />
+            {children}
+            <PageFooter />
+          </NextUIProvider>
+        </FilterProvider>
       </body>
     </html>
   );

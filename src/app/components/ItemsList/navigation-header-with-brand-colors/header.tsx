@@ -1,6 +1,5 @@
 "use client";
-
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
   Navbar,
   NavbarBrand,
@@ -15,29 +14,99 @@ import {
   DropdownTrigger,
   DropdownMenu,
   DropdownItem,
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-  Tabs,
-  Tab,
-  AvatarGroup,
   Avatar,
-  Chip,
-  Tooltip,
-  ScrollShadow,
-  Divider,
-  Breadcrumbs,
-  BreadcrumbItem,
-  Input,
   Badge,
 } from "@nextui-org/react";
 import { Icon } from "@iconify/react";
-
 import { AcmeIcon } from "./social";
+import { useFilter } from "../../FilterContext";
+import { data } from "../../../data";
 
-import NotificationsCard from "./notifications-card";
+export default function Header() {
+  const [countries, setCountries] = useState<string[]>([]);
+  const [categories, setCategories] = useState<string[]>([]);
+  const [types, setTypes] = useState<string[]>([]);
+  const [companies, setCompanies] = useState<string[]>([]);
 
-export default function Component() {
+  const { setFilteredData } = useFilter();
+  const { activeCountry, setActiveCountry } = useFilter();
+  const { activeCategory, setActiveCategory } = useFilter();
+  const { activeType, setActiveType } = useFilter();
+  const { activeCompany, setActiveCompany } = useFilter();
+
+  useEffect(() => {
+    const hash = {
+      country: [] as string[],
+      category: [] as string[],
+      type: [] as string[],
+      company: [] as string[],
+    };
+
+    data.forEach((el: any) => {
+      if (el.country && !hash.country.includes(el.country)) {
+        hash.country.push(el.country as string);
+      }
+      if (el.category && !hash.category.includes(el.category)) {
+        hash.category.push(el.category as string);
+      }
+      if (el.type && !hash.type.includes(el.type)) {
+        hash.type.push(el.type as string);
+      }
+      if (el.company && !hash.company.includes(el.company)) {
+        hash.company.push(el.company as string);
+      }
+    });
+
+    setCountries(hash.country);
+    setCategories(hash.category);
+    setTypes(hash.type);
+    setCompanies(hash.company);
+  }, []);
+
+  const changeValue = (value: string, type: string) => {
+    let currentCountry = activeCountry;
+    let currentCategory = activeCategory;
+    let currentType = activeType;
+    let currentCompany = activeCompany;
+
+    if (type === "country") {
+      setActiveCountry(value);
+      currentCountry = value;
+    }
+
+    if (type === "category") {
+      setActiveCategory(value);
+      currentCategory = value;
+    }
+
+    if (type === "type") {
+      setActiveType(value);
+      currentType = value;
+    }
+
+    if (type === "company") {
+      setActiveCompany(value);
+      currentCompany = value;
+    }
+
+    const newData = data
+      .filter((element: any) => {
+        return (
+          element.category === currentCategory ||
+          element.company === currentCompany ||
+          element.country === currentCountry ||
+          element.type === currentType
+        );
+      })
+      .map((element: any) => ({
+        ...element,
+        author: element.author ?? "Unknown Author",
+        date: element.date ?? "Unknown Date",
+      }));
+
+    setFilteredData(newData);
+  };
+
   return (
     <div className="w-full">
       <Navbar
@@ -56,8 +125,50 @@ export default function Component() {
           <p className="font-bold text-inherit">ACME</p>
         </NavbarBrand>
         <NavbarContent justify="start">
-          <NavbarItem>
-            <p>gfj</p>
+          <NavbarItem className="flex gap-4">
+            {countries.length > 1 &&
+              countries.map((country) => (
+                <Button
+                  key={country}
+                  color={activeCountry === country ? "primary" : "default"}
+                  onPress={() => changeValue(country, "country")}
+                >
+                  {country}
+                </Button>
+              ))}
+
+            {categories.length > 1 &&
+              categories.map((category) => (
+                <Button
+                  key={category}
+                  color={activeCategory === category ? "primary" : "default"}
+                  onPress={() => changeValue(category, "category")}
+                >
+                  {category}
+                </Button>
+              ))}
+
+            {types.length > 1 &&
+              types.map((type) => (
+                <Button
+                  key={type}
+                  color={activeType === type ? "primary" : "default"}
+                  onPress={() => changeValue(type, "type")}
+                >
+                  {type}
+                </Button>
+              ))}
+
+            {companies.length > 1 &&
+              companies.map((company) => (
+                <Button
+                  key={company}
+                  color={activeCompany === company ? "primary" : "default"}
+                  onPress={() => changeValue(company, "company")}
+                >
+                  {company}
+                </Button>
+              ))}
           </NavbarItem>
         </NavbarContent>
 
