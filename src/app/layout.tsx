@@ -22,7 +22,9 @@ export default function RootLayout({
           <NextUIProvider className="min-h-full ">
             <PageHeader />
             {children}
-            <PageFooter />
+            <div className="w-full flex justify-end">
+              <PageFooter />
+            </div>
           </NextUIProvider>
         </FilterProvider>
       </body>

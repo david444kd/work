@@ -1,13 +1,15 @@
 "use client";
 import Link from "next/link";
-import { Select, SelectItem, Image } from "@nextui-org/react";
+import { Select, SelectItem, Image, Spacer } from "@nextui-org/react";
 import { Button } from "@nextui-org/button";
 import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/card";
 import { Divider, Pagination } from "@nextui-org/react";
 import { Chip } from "@nextui-org/chip";
 import { useState } from "react";
 import { useFilter } from "../FilterContext";
-import App from "../ItemsList/sidebar/sidebar-with-sections/App";
+import SidebarComponent from "./sidebar/sidebar-with-sections/sidebarComponent";
+import { PageFooter } from "../PageFooter";
+
 export const ItemsList = ({ data }: { data: any[] }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 12;
@@ -29,49 +31,44 @@ export const ItemsList = ({ data }: { data: any[] }) => {
   );
 
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 dark bg-background text-foreground">
-      <div className="col-span-1">
-        <App></App>
+    <div className="grid grid-cols-5 gap-16 dark bg-background text-foreground">
+      <div className="col-span-1 relative w-1/5 ">
+        <SidebarComponent></SidebarComponent>
       </div>
 
-      <div className="col-span-1 lg:col-span-4">
-        <div className="grid col-span-4 mt-28">
-          <div className="flex flex-wrap mb-10">
-            {/* Тут могут быть Select элементы для фильтров */}
-          </div>
-        </div>
-
-        <div className="grid col-span-4 grid-cols-1 xl:grid-cols-3 gap-10">
+      <div className="col-span-4  pl-16 pr-5 lg:p-10">
+        <div className="w-full grid col-span-4 mt-10 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-10">
           {currentPosts.length > 0 ? (
             currentPosts.map((item: any) => (
-              <Card key={item.id} className="p-3" isBlurred>
+              <Card key={item.id} className="p-3">
                 <CardHeader className="flex flex-col gap-3 ">
                   <Image
-                    isZoomed
                     alt="Card background"
                     className="object-cover rounded-xl w-96 h-48"
                     src={item.img}
                   />
                   <div className="flex flex-col w-full">
                     <p className="text-md">{item.title}</p>
-                    <a
+                    {/* <a
                       href={item.link}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-small text-blue-300"
                     >
                       {item.link}
-                    </a>
+                    </a> */}
                   </div>
                 </CardHeader>
-                <Divider />
+                {/* <Divider /> */}
                 <CardBody>
-                  <p className="trim-text text-xs text-gray-300">{item.text}</p>
+                  <p className="trim-text text-xs text-default-400">
+                    {item.text}
+                  </p>
                 </CardBody>
-                <CardFooter className="flex gap-2 items-center justify-end">
-                  <Chip>{item.category}</Chip>
+                <CardFooter className="flex items-center justify-end">
+                  {/* <Chip>{item.category}</Chip> */}
                   <Link href={`details/${item.id}`}>
-                    <Button size="sm" color="primary">
+                    <Button size="sm" color="primary" className="rounded-xl">
                       details
                     </Button>
                   </Link>
@@ -82,7 +79,7 @@ export const ItemsList = ({ data }: { data: any[] }) => {
             <p>No data available.</p>
           )}
         </div>
-        <div className="col-span-3">
+        <div className="col-span-4 mt-10">
           <Pagination
             total={totalPages}
             page={currentPage}
@@ -90,6 +87,9 @@ export const ItemsList = ({ data }: { data: any[] }) => {
             color="primary"
           />
         </div>
+        {/* <div className="justify-end bottom-0">
+          <PageFooter></PageFooter>
+        </div> */}
       </div>
     </div>
   );
