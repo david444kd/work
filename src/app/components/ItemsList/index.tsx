@@ -9,7 +9,7 @@ import { useState } from "react";
 import { useFilter } from "../FilterContext";
 import SidebarComponent from "./sidebar/sidebar-with-sections/sidebarComponent";
 import { PageFooter } from "../PageFooter";
-
+import SideBar2 from "../SideBar2";
 export const ItemsList = ({ data }: { data: any[] }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 12;
@@ -32,11 +32,12 @@ export const ItemsList = ({ data }: { data: any[] }) => {
 
   return (
     <div className="grid grid-cols-5 gap-16 dark bg-background text-foreground">
-      <div className="col-span-1 relative w-1/5 ">
-        <SidebarComponent></SidebarComponent>
+      <div className="col-span-1 relative w-1/4 ">
+        {/* <SidebarComponent></SidebarComponent> */}
+        <SideBar2></SideBar2>
       </div>
 
-      <div className="col-span-4  pl-16 pr-5 lg:p-10">
+      <div className="col-span-4   pr-5 md:p-10">
         <div className="w-full grid col-span-4 mt-10 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-10">
           {currentPosts.length > 0 ? (
             currentPosts.map((item: any) => (
