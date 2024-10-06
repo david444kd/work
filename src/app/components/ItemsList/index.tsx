@@ -10,6 +10,9 @@ import { useFilter } from "../FilterContext";
 import SidebarComponent from "./sidebar/sidebar-with-sections/sidebarComponent";
 import { PageFooter } from "../PageFooter";
 import SideBar2 from "../SideBar2";
+import Zombie from "../icons/zombie";
+import Notion from "../icons/notion";
+import Discord from "../icons/discord";
 export const ItemsList = ({ data }: { data: any[] }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 12;
@@ -32,17 +35,29 @@ export const ItemsList = ({ data }: { data: any[] }) => {
 
   return (
     <div className="grid grid-cols-5 gap-16 dark bg-background text-foreground">
-      <div className="col-span-1 relative w-1/4 ">
+      <div className="col-span-1 relative ">
         {/* <SidebarComponent></SidebarComponent> */}
         <SideBar2></SideBar2>
       </div>
 
       <div className="col-span-4   pr-5 md:p-10">
-        <div className="w-full grid col-span-4 mt-10 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-10">
+        <div className="w-full grid col-span-4 mt-14 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-10">
           {currentPosts.length > 0 ? (
             currentPosts.map((item: any) => (
               <Card key={item.id} className="p-3">
                 <CardHeader className="flex flex-col gap-3 ">
+                  <div className="flex w-full items-center justify-between mb-1">
+                    <div className="flex gap-3 items-center">
+                      <Zombie></Zombie>
+                      <div>
+                        <p className="text-md">Brooklyn simons</p>
+                        <p className="text-xs text-default-400">
+                          0 x 123...4567
+                        </p>
+                      </div>
+                    </div>
+                    <Notion></Notion>
+                  </div>
                   <Image
                     alt="Card background"
                     className="object-cover rounded-xl w-96 h-48"
@@ -66,12 +81,14 @@ export const ItemsList = ({ data }: { data: any[] }) => {
                     {item.text}
                   </p>
                 </CardBody>
-                <CardFooter className="flex items-center justify-end">
+                <CardFooter className="flex  items-center justify-start gap-3 pt-0">
+                  <Discord></Discord>
                   {/* <Chip>{item.category}</Chip> */}
-                  <Link href={`details/${item.id}`}>
-                    <Button size="sm" color="primary" className="rounded-xl">
-                      details
-                    </Button>
+                  <Link
+                    href={`details/${item.id}`}
+                    className="hover:opacity-70 underline"
+                  >
+                    Details
                   </Link>
                 </CardFooter>
               </Card>

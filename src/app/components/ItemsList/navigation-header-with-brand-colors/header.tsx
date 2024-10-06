@@ -115,17 +115,17 @@ export default function Header() {
           wrapper: "px-4 sm:px-6",
           item: "data-[active=true]:text-primary",
         }}
-        className="px-10"
+        className="sm:px-10"
         height="64px"
         maxWidth="full"
       >
-        <NavbarBrand>
+        <NavbarBrand className="w-1/3">
           <NavbarMenuToggle className="mr-2 h-6 sm:hidden" />
           <AcmeIcon />
           <p className="font-bold text-inherit">ACME</p>
         </NavbarBrand>
         <NavbarContent justify="start">
-          <NavbarItem className="flex gap-4">
+          <NavbarItem className="sm:flex gap-4 hidden">
             {countries.length > 1 &&
               countries.map((country) => (
                 <Button
@@ -229,36 +229,51 @@ export default function Header() {
 
         {/* Mobile Menu */}
         <NavbarMenu>
-          <NavbarMenuItem>
-            <Link className="w-full" color="foreground" href="#">
-              Dashboard
-            </Link>
-          </NavbarMenuItem>
-          <NavbarMenuItem isActive>
-            <Link
-              aria-current="page"
-              className="w-full"
-              color="primary"
-              href="#"
-            >
-              Deployments
-            </Link>
-          </NavbarMenuItem>
-          <NavbarMenuItem>
-            <Link className="w-full" color="foreground" href="#">
-              Analytics
-            </Link>
-          </NavbarMenuItem>
-          <NavbarMenuItem>
-            <Link className="w-full" color="foreground" href="#">
-              Team
-            </Link>
-          </NavbarMenuItem>
-          <NavbarMenuItem>
-            <Link className="w-full" color="foreground" href="#">
-              Settings
-            </Link>
-          </NavbarMenuItem>
+          <NavbarItem className="flex flex-col gap-4 w-1/3">
+            {countries.length > 1 &&
+              countries.map((country) => (
+                <Button
+                  key={country}
+                  color={activeCountry === country ? "primary" : "default"}
+                  onPress={() => changeValue(country, "country")}
+                >
+                  {country}
+                </Button>
+              ))}
+
+            {categories.length > 1 &&
+              categories.map((category) => (
+                <Button
+                  key={category}
+                  color={activeCategory === category ? "primary" : "default"}
+                  onPress={() => changeValue(category, "category")}
+                >
+                  {category}
+                </Button>
+              ))}
+
+            {types.length > 1 &&
+              types.map((type) => (
+                <Button
+                  key={type}
+                  color={activeType === type ? "primary" : "default"}
+                  onPress={() => changeValue(type, "type")}
+                >
+                  {type}
+                </Button>
+              ))}
+
+            {companies.length > 1 &&
+              companies.map((company) => (
+                <Button
+                  key={company}
+                  color={activeCompany === company ? "primary" : "default"}
+                  onPress={() => changeValue(company, "company")}
+                >
+                  {company}
+                </Button>
+              ))}
+          </NavbarItem>
         </NavbarMenu>
       </Navbar>
     </div>

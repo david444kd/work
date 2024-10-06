@@ -50,10 +50,10 @@ export default function SideBar2() {
   }, []);
 
   return (
-    <div className="flex h-dvh w-1/6 fixed">
+    <div className="flex h-dvh w-[20%] fixed">
       <div
         className={cn(
-          "relative flex h-full w-72 flex-col !border-r-small border-divider p-6 transition-width",
+          "relative flex h-full w-96 flex-col !border-r-small border-divider p-6 transition-width",
           {
             "w-16 items-center px-2 py-6": isCompact,
           }
