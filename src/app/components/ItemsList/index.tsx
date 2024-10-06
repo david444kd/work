@@ -48,7 +48,6 @@ export const ItemsList = ({ data }: { data: any[] }) => {
                 <CardHeader className="flex flex-col gap-3 ">
                   <div className="flex w-full items-center justify-between mb-1">
                     <div className="flex gap-3 items-center">
-                      {/* <Zombie></Zombie> */}
                       <Image className="w-10 h-10" src={item.imgTitle}></Image>
                       <div>
                         <p className="text-md">Brooklyn simons</p>
@@ -57,7 +56,10 @@ export const ItemsList = ({ data }: { data: any[] }) => {
                         </p>
                       </div>
                     </div>
-                    <Notion></Notion>
+                    <Image
+                      className="w-7 h-7 bg-white"
+                      src={item.notion}
+                    ></Image>
                   </div>
                   <Image
                     alt="Card background"
