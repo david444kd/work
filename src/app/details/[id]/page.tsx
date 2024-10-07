@@ -17,6 +17,10 @@ type Props = {
 const Details = ({ params }: Props) => {
   const filteredData = data.find((item) => item.id === Number(params.id));
 
+  if (!filteredData) {
+    return <div>Данные не найдены</div>;
+  }
+
   return <PageContent pageData={filteredData} />;
 };
 
