@@ -12,7 +12,7 @@ import {
 import { Chip } from "@nextui-org/chip";
 import Discord from "@/app/components/icons/discord";
 export const PageContent = ({ pageData }: any) => {
-  console.log(pageData.text.split("/"));
+  console.log(pageData?.text?.split("/") || []);
 
   return (
     <div className=" w-[80%] mt-20 p-7">
@@ -56,7 +56,6 @@ export const PageContent = ({ pageData }: any) => {
           <div className="flex flex-col gap-2">
             <p className="text-default-400">{pageData.text}</p>
           </div>
-
           <div className="flex gap-4">
             <p>{pageData.author}</p>
 
