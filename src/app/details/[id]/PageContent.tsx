@@ -39,17 +39,25 @@ export const PageContent = ({ pageData }: any) => {
           </NextUiLink>
         </div>
         {pageData.img && (
-          <Card>
-            <img src={pageData.img} alt="" className="w-full rounded-xl" />
-          </Card>
+          <img
+            src={pageData.img}
+            alt="Companyimage"
+            className="flex w-full rounded-xl"
+          />
         )}
       </div>
       <Card className="p-8 mb-6">
         <div className="flex w-full flex-col gap-8 mb-5">
-          <Image src={pageData.imgTitle} className="w-10 h-10"></Image>
+          <Image
+            src={pageData.imgTitle}
+            alt="imageTitle"
+            className="w-10 h-10"
+          ></Image>
           <div className="flex flex-col gap-2">
-            {pageData.text.split("\n\n").map((chunk: string) => (
-              <p className="text-default-400">{chunk}</p>
+            {pageData.text.split("\n\n").map((chunk: string, index: number) => (
+              <p key={index} className="text-default-400">
+                {chunk}
+              </p>
             ))}
           </div>
 
@@ -65,13 +73,21 @@ export const PageContent = ({ pageData }: any) => {
         <CardHeader className="flex flex-col gap-3 ">
           <div className="flex w-full items-center justify-between mb-1">
             <div className="flex gap-3 items-center">
-              <Image className="w-10 h-10" src={pageData.imgTitle}></Image>
+              <Image
+                className="w-10 h-10"
+                alt="imageTitle"
+                src={pageData.imgTitle}
+              ></Image>
               <div>
                 <p className="text-md">Brooklyn simons</p>
                 <p className="text-xs text-default-400">0 x 123...4567</p>
               </div>
             </div>
-            <Image className="w-7 h-7 bg-white" src={pageData.notion}></Image>
+            <Image
+              alt="notionImage"
+              className="w-7 h-7 bg-white"
+              src={pageData.notion}
+            ></Image>
           </div>
         </CardHeader>
         {/* <Divider /> */}
