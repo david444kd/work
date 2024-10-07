@@ -34,13 +34,12 @@ export const ItemsList = ({ data }: { data: any[] }) => {
   );
 
   return (
-    <div className="grid grid-cols-5 gap-16 dark bg-background text-foreground">
-      <div className="col-span-1 relative ">
-        {/* <SidebarComponent></SidebarComponent> */}
-        <SideBar2></SideBar2>
-      </div>
-
-      <div className="col-span-4   pr-5 md:p-10">
+    <div className="grid grid-cols-3 gap-16 dark bg-background text-foreground w-[80%]">
+      {/* <div className="col-span-1 relative "> */}
+      {/* <SidebarComponent></SidebarComponent> */}
+      {/* <SideBar2></SideBar2> */}
+      {/* </div> */}
+      <div className="col-span-3  pr-5 md:p-10">
         <div className="w-full grid col-span-4 mt-14 grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 lg:gap-10">
           {currentPosts.length > 0 ? (
             currentPosts.map((item: any) => (
@@ -108,9 +107,6 @@ export const ItemsList = ({ data }: { data: any[] }) => {
             color="primary"
           />
         </div>
-        {/* <div className="justify-end bottom-0">
-          <PageFooter></PageFooter>
-        </div> */}
       </div>
     </div>
   );
