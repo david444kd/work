@@ -54,12 +54,7 @@ export const PageContent = ({ pageData }: any) => {
             className="w-10 h-10"
           ></Image>
           <div className="flex flex-col gap-2">
-            {/* {pageData.text.split("\n\n").map((chunk: string, index: number) => ( */}
-            <p className="text-default-400">
-              {pageData.text}
-              {/* {chunk} */}
-            </p>
-            {/* ))} */}
+            <p className="text-default-400">{pageData.text}</p>
           </div>
 
           <div className="flex gap-4">
