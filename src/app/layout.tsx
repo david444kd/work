@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "./layout.css";
 import { NextUIProvider } from "@nextui-org/react";
-import { PageHeader } from "./components/PageHeader";
 import { PageFooter } from "./components/PageFooter";
 import { FilterProvider } from "../app/components/FilterContext";
 import SideBar2 from "./components/SideBar2";

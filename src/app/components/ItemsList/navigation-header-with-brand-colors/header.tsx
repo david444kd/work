@@ -174,7 +174,7 @@ export default function Header() {
 
         <NavbarContent justify="start">
           <NavbarItem className="sm:flex gap-4 hidden">
-            <Link href="/page2">Page2</Link>
+            <Link href="/pages/page2">Page2</Link>
             {countries.length > 1 &&
               countries.map((country) => (
                 <Button
