@@ -50,7 +50,7 @@ export default function SideBar2() {
   }, []);
 
   return (
-    <div className="flex h-dvh w-[20%] fixed">
+    <div className="flex h-dvh w-[20%] fixed mt-14">
       <div
         className={cn(
           "relative flex h-full w-96 flex-col !border-r-small border-divider p-6 transition-width",
@@ -68,13 +68,13 @@ export default function SideBar2() {
             }
           )}
         >
-          <span
+          {/* <span
             className={cn("text-small font-bold uppercase opacity-100", {
               "w-0 opacity-0": isCompact,
             })}
           >
             Acme
-          </span>
+          </span> */}
         </div>
         <Spacer y={8} />
         <div className="flex items-center gap-3 px-3">

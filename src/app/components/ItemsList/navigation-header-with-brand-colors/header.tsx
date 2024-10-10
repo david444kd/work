@@ -10,6 +10,7 @@ import {
   NavbarMenuToggle,
   Link,
   Button,
+  Switch,
   Dropdown,
   DropdownTrigger,
   DropdownMenu,
@@ -28,11 +29,51 @@ export default function Header() {
   const [types, setTypes] = useState<string[]>([]);
   const [companies, setCompanies] = useState<string[]>([]);
 
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    const savedTheme = localStorage.getItem("theme");
+    return savedTheme === "dark"; // возвращаем true если сохранена тёмная тема
+  });
+
   const { setFilteredData } = useFilter();
   const { activeCountry, setActiveCountry } = useFilter();
   const { activeCategory, setActiveCategory } = useFilter();
   const { activeType, setActiveType } = useFilter();
   const { activeCompany, setActiveCompany } = useFilter();
+  useEffect(() => {
+    const rootElement = document.documentElement;
+    const items = document.querySelector("#itemlist");
+    const icontext = document.querySelector("#icontext");
+    const acmeIcon = document.querySelector("#acmeIcon");
+    const navbarButton = document.querySelector("#navbarButton");
+    const settingsButton = document.querySelector("#settingsButton");
+
+    if (isDarkMode) {
+      rootElement.classList.add("dark");
+      items?.classList.add("dark");
+      icontext?.classList.remove("text-black");
+      acmeIcon?.classList.remove("fill-black");
+      navbarButton?.classList.remove("text-black");
+      settingsButton?.classList.remove("text-black");
+
+      localStorage.setItem("theme", "dark");
+    } else {
+      rootElement.classList.remove("dark");
+      items?.classList.remove("dark");
+      icontext?.classList.add("text-black");
+      acmeIcon?.classList.add("fill-black");
+      navbarButton?.classList.add("text-black");
+      settingsButton?.classList.add("text-black");
+
+      localStorage.setItem("theme", "light");
+    }
+  }, [isDarkMode]);
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem("theme");
+    if (savedTheme === "dark") {
+      setIsDarkMode(true); // синхронизируем состояние переключателя с сохранённой темой
+    }
+  }, []);
 
   useEffect(() => {
     const hash = {
@@ -115,15 +156,20 @@ export default function Header() {
           wrapper: "px-4 sm:px-6",
           item: "data-[active=true]:text-primary",
         }}
-        className="sm:px-10"
-        height="64px"
+        className="sm:px-10 sm:h-24 sm:pt-10"
         maxWidth="full"
       >
-        <NavbarBrand className="w-1/3">
-          <NavbarMenuToggle className="mr-2 h-6 sm:hidden" />
+        <NavbarBrand className="w-1/3 sm:ml-24">
+          <NavbarMenuToggle
+            id="navbarButton"
+            className="mr-2 h-6 sm:hidden  text-black"
+          />
           <AcmeIcon />
-          <p className="font-bold text-inherit">ACME</p>
+          <p id="icontext" className="font-bold ">
+            ACME
+          </p>
         </NavbarBrand>
+
         <NavbarContent justify="start">
           <NavbarItem className="sm:flex gap-4 hidden">
             {countries.length > 1 &&
@@ -180,7 +226,8 @@ export default function Header() {
           <NavbarItem className="hidden lg:flex">
             <Button isIconOnly radius="full" variant="light">
               <Icon
-                className="text-primary-foreground/60"
+                id="settingsButton"
+                className="text-black"
                 icon="solar:settings-linear"
                 width={24}
               />
@@ -225,6 +272,12 @@ export default function Header() {
               </DropdownMenu>
             </Dropdown>
           </NavbarItem>
+          <Switch
+            isSelected={isDarkMode}
+            onChange={(e) => setIsDarkMode(e.target.checked)} // переключаем состояние
+            aria-label="Toggle Dark Mode"
+            className="pl-3"
+          />
         </NavbarContent>
 
         {/* Mobile Menu */}

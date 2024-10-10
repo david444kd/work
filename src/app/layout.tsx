@@ -16,15 +16,21 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark bg-background text-foreground">
+    <html
+      id="home"
+      lang="en"
+      className="dark bg-background text-foreground sm:ml-20 sm:mr-20 sm:mb-20"
+    >
       <body className="relative bg-background">
         <FilterProvider>
           <NextUIProvider className="min-h-full ">
-            <PageHeader />
+            {/* <PageHeader /> */}
             <SideBar2></SideBar2>
             <div className="flex justify-end">{children}</div>
             <div className="w-full flex justify-end">
-              <PageFooter />
+              <div className="sm:w-[65%] lg:w-[75%]">
+                <PageFooter />
+              </div>
             </div>
           </NextUIProvider>
         </FilterProvider>
