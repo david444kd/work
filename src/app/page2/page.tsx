@@ -6,16 +6,10 @@ import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/card";
 import { Divider, Pagination, Switch } from "@nextui-org/react";
 import { Chip } from "@nextui-org/chip";
 import { use, useState } from "react";
-import { useFilter } from "../FilterContext";
-import SidebarComponent from "./sidebar/sidebar-with-sections/sidebarComponent";
-import { PageFooter } from "../PageFooter";
-import SideBar2 from "../SideBar2";
-import Zombie from "../icons/zombie";
-import Notion from "../icons/notion";
-import Discord from "../icons/discord";
-import { PageHeader } from "../PageHeader";
-import Header from "./navigation-header-with-brand-colors/header";
-export const ItemsList = ({ data }: { data: any[] }) => {
+import { useFilter } from "../components/FilterContext";
+
+import Header from "../components/ItemsList/navigation-header-with-brand-colors/header";
+export const page = ({ data }: { data: any[] }) => {
   const [currentPage, setCurrentPage] = useState(1);
   const postsPerPage = 12;
 

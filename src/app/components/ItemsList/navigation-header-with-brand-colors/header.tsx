@@ -32,6 +32,7 @@ export default function Header() {
   const [isDarkMode, setIsDarkMode] = useState(() => {
     const savedTheme =
       typeof window !== "undefined" ? localStorage.getItem("checkout") : "dark";
+
     return savedTheme === "dark";
   });
 
@@ -173,6 +174,7 @@ export default function Header() {
 
         <NavbarContent justify="start">
           <NavbarItem className="sm:flex gap-4 hidden">
+            <Link href="/page2">Page2</Link>
             {countries.length > 1 &&
               countries.map((country) => (
                 <Button

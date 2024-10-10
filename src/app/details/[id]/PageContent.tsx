@@ -15,8 +15,8 @@ export const PageContent = ({ pageData }: any) => {
   console.log(pageData?.text?.split("/") || []);
 
   return (
-    <div className="flex justify-start w-[80%]">
-      <div className="w-[75%] mt-20 p-7">
+    <div className="flex justify-start w-[80%] pl-10">
+      <div className="w-[71%] p-7">
         <div className="flex flex-col gap-8 mb-5">
           <Link href="/" className="text-xl hover:underline hover:opacity-75">
             Home
