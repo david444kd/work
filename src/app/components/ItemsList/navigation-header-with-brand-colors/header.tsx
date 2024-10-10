@@ -30,8 +30,9 @@ export default function Header() {
   const [companies, setCompanies] = useState<string[]>([]);
 
   const [isDarkMode, setIsDarkMode] = useState(() => {
-    const savedTheme = localStorage.getItem("theme");
-    return savedTheme === "dark"; // возвращаем true если сохранена тёмная тема
+    const savedTheme =
+      typeof window !== "undefined" ? localStorage.getItem("checkout") : "dark";
+    return savedTheme === "dark";
   });
 
   const { setFilteredData } = useFilter();
@@ -69,9 +70,9 @@ export default function Header() {
   }, [isDarkMode]);
 
   useEffect(() => {
-    const savedTheme = localStorage.getItem("theme");
+    const savedTheme = localStorage.getItem("checkout");
     if (savedTheme === "dark") {
-      setIsDarkMode(true); // синхронизируем состояние переключателя с сохранённой темой
+      setIsDarkMode(true);
     }
   }, []);
 
