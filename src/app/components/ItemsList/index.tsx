@@ -29,6 +29,8 @@ export const ItemsList = ({ data }: { data: any[] }) => {
     (safeFilteredData.length > 0 ? safeFilteredData.length : data.length) /
       postsPerPage
   );
+  const FivePages = data.slice(0, 5);
+  console.log(FivePages);
 
   return (
     <>
@@ -45,6 +47,31 @@ export const ItemsList = ({ data }: { data: any[] }) => {
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae,
             recusandae?
           </h2>
+        </div>
+        <div className="md:ml-10 md:mr-10 mr-3">
+          {FivePages.length > 0 ? (
+            FivePages.map((item: any) => (
+              <Card
+                shadow="none"
+                className="mt-2 justify-center h-[20vw] sm:h-[10] md:h-[5vw] xl:h-[3vw]"
+              >
+                <Link href={"/details/" + item.id}>
+                  <div className="grid grid-cols-12 items-center">
+                    <div className="grid justify-center col-span-1 items-center  mr-3 sm:pr-0">
+                      <Image
+                        className="object-cover rounded-xl w-16 h-10"
+                        alt="CompanyImage"
+                        src={item.img}
+                      />
+                    </div>
+                    <p className="text-md col-span-11">{item.title}</p>
+                  </div>
+                </Link>
+              </Card>
+            ))
+          ) : (
+            <p>No data</p>
+          )}
         </div>
         <div className="col-span-1 pr-5 md:pb-10 md:pr-10 md:pl-10">
           <div className="w-full grid col-span-1  grid-cols-1  gap-3 lg:gap-6">
