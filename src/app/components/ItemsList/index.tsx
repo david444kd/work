@@ -52,6 +52,7 @@ export const ItemsList = ({ data }: { data: any[] }) => {
           {FivePages.length > 0 ? (
             FivePages.map((item: any) => (
               <Card
+                key={item.id}
                 shadow="none"
                 className="mt-2 justify-center h-[20vw] sm:h-[10] md:h-[5vw] xl:h-[3vw]"
               >
