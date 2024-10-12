@@ -11,15 +11,15 @@ import { useFilter } from "../FilterContext";
 import Header from "./navigation-header-with-brand-colors/header";
 export const ItemsList = ({ data }: { data: any[] }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const postsPerPage = 12;
+  const PostsPerPage = 12;
 
   const { filteredData } = useFilter();
   const { activeCountry } = useFilter();
 
   const safeFilteredData = filteredData || [];
 
-  const lastPostIndex = currentPage * postsPerPage;
-  const firstPostIndex = lastPostIndex - postsPerPage;
+  const lastPostIndex = currentPage * PostsPerPage;
+  const firstPostIndex = lastPostIndex - PostsPerPage;
 
   const currentPosts = (
     safeFilteredData.length > 0 ? safeFilteredData : data
@@ -27,7 +27,7 @@ export const ItemsList = ({ data }: { data: any[] }) => {
 
   const totalPages = Math.ceil(
     (safeFilteredData.length > 0 ? safeFilteredData.length : data.length) /
-      postsPerPage
+      PostsPerPage
   );
   const FivePages = data.slice(0, 5);
   console.log(FivePages);
@@ -92,9 +92,9 @@ export const ItemsList = ({ data }: { data: any[] }) => {
                             src={item.imgTitle}
                           ></Image>
                           <div>
-                            <p className="text-md">Brooklyn simons</p>
+                            <p className="text-md">{item.nearImgTitle}</p>
                             <p className="text-xs text-default-400">
-                              0 x 123...4567
+                              {item.nearImgText}
                             </p>
                           </div>
                         </div>

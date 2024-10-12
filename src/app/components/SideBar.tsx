@@ -15,11 +15,11 @@ import { Icon } from "@iconify/react";
 import { useMediaQuery } from "usehooks-ts";
 
 // import { AcmeLogo } from "./acme";
-import { sectionItems } from "../components/ItemsList/sidebar/sidebar-with-sections/sidebar-items";
+import { sectionItems } from "./ItemsList/sidebar/sidebar-with-sections/sidebar-items";
 
-import { cn } from "../components/cn";
+import { cn } from "./cn";
 
-import Sidebar from "../components/ItemsList/sidebar/sidebar-with-sections/sidebar";
+import Sidebar from "./ItemsList/sidebar/sidebar-with-sections/sidebar";
 
 /**
  *  This example requires installing the `usehooks-ts` package:

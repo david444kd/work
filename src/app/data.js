@@ -14,6 +14,8 @@ export const data = [
     link: "https://www.globenewswire.com/en/news-release/2023/03/15/2627977/0/en/Zadara-Expands-LATAM-Presence.html",
     imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
+    nearImgTitle: "Brooklyn simons",
+    nearImgText: "0 x 123...4567",
   },
   {
     id: 298,
@@ -31,6 +33,8 @@ export const data = [
     link: "https://technode.global/2023/04/06/singapores-agritech-firm-archisen-eyes-expansion-to-cities-in-apac-middle-east-while-it-expands-capacity-in-home-market/",
     imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
+    nearImgTitle: "Brooklyn simons",
+    nearImgText: "0 x 123...4567",
   },
   {
     id: 204,
@@ -48,6 +52,8 @@ export const data = [
     link: "https://www.webintravel.com/lighthouse-expands-in-apac-brings-its-insights-to-hoteliers-in-the-region/",
     imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
+    nearImgTitle: "Brooklyn simons",
+    nearImgText: "0 x 123...4567",
   },
   {
     id: 194,
@@ -64,6 +70,8 @@ export const data = [
     link: "https://fst.net.au/asia-financial-services-news/mastercard-agritech-platform-expands-across-apac/",
     imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
+    nearImgTitle: "Brooklyn simons",
+    nearImgText: "0 x 123...4567",
   },
   {
     id: 7,
@@ -80,6 +88,8 @@ export const data = [
     link: "https://lbbonline.com/news/wunderman-thompsons-peer-to-peer-mentoring-app-for-women-expands-across-apac",
     imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
+    nearImgTitle: "Brooklyn simons",
+    nearImgText: "0 x 123...4567",
   },
   {
     id: 292,
@@ -97,6 +107,8 @@ export const data = [
     link: "https://www.forbes.com/sites/veronicavillafane/2019/02/12/netflix-has-big-latam-expansion-plans-produce-50-shows-in-mexico-and-open-mexico-city-office/",
     imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
+    nearImgTitle: "Brooklyn simons",
+    nearImgText: "0 x 123...4567",
   },
   {
     id: 38,
@@ -114,6 +126,8 @@ export const data = [
     link: "https://www.ttgasia.com/2022/04/11/tui-blue-hotels-resorts-makes-three-new-hires-eyes-apac-expansion/",
     imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
+    nearImgTitle: "Brooklyn simons",
+    nearImgText: "0 x 123...4567",
   },
   {
     id: 42,
@@ -130,6 +144,8 @@ export const data = [
     link: "https://www.ttgasia.com/2021/09/17/club-med-eyes-aggressive-expansion-in-apac/",
     imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
+    nearImgTitle: "Brooklyn simons",
+    nearImgText: "0 x 123...4567",
   },
   {
     id: 100,
@@ -146,6 +162,8 @@ export const data = [
     link: "https://www.ttgasia.com/2019/03/26/former-buzzfeed-japan-ceo-joins-sojern-to-lead-apac-expansion/",
     imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
+    nearImgTitle: "Brooklyn simons",
+    nearImgText: "0 x 123...4567",
   },
   {
     id: 15,
@@ -161,6 +179,8 @@ export const data = [
     link: "https://www.travelweekly.com.au/article/wex-business-expansion-in-apac-means-new-role-for-jason-hancock/",
     imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
+    nearImgTitle: "Brooklyn simons",
+    nearImgText: "0 x 123...4567",
   },
   {
     id: 198,
@@ -176,6 +196,8 @@ export const data = [
     link: "https://www.travelweekly.com.au/article/ponant-commercial-team-expands-to-meet-growing-demand-in-apac/",
     imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
+    nearImgTitle: "Brooklyn simons",
+    nearImgText: "0 x 123...4567",
   },
   {
     id: 144,
@@ -192,6 +214,8 @@ export const data = [
     link: "https://totaltele.com/subtonomy-continues-expansion-into-mea-and-apac-announces-new-sales-offices-in-paris-france-and-kuala-lumpur-malaysia-2/",
     imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
+    nearImgTitle: "Brooklyn simons",
+    nearImgText: "0 x 123...4567",
   },
   {
     id: 283,

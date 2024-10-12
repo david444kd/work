@@ -31,16 +31,16 @@ export const PageFooter = () => {
               </p>
               <div className="flex items-center gap-2">
                 <Link href="#">
-                  <Twitter></Twitter>
+                  <Twitter />
                 </Link>
                 <Link href="#">
-                  <Telegram></Telegram>
+                  <Telegram />
                 </Link>
                 <Link href="#">
-                  <Discord></Discord>
+                  <Discord />
                 </Link>
                 <Link href="#">
-                  <Github></Github>
+                  <Github />
                 </Link>
               </div>
             </div>
