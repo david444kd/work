@@ -28,8 +28,6 @@ import { useFilter } from "../../FilterContext";
 import { data } from "../../../data";
 
 export default function Header() {
-  const [selectedTab, setSelectedTab] = useState("country");
-
   const [countries, setCountries] = useState<string[]>([]);
   const [categories, setCategories] = useState<string[]>([]);
   const [types, setTypes] = useState<string[]>([]);
@@ -47,6 +45,7 @@ export default function Header() {
   const { activeCategory, setActiveCategory } = useFilter();
   const { activeType, setActiveType } = useFilter();
   const { activeCompany, setActiveCompany } = useFilter();
+
   useEffect(() => {
     const rootElement = document.documentElement;
     const items = document.querySelector("#itemlist");

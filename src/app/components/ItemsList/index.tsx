@@ -37,19 +37,19 @@ export const ItemsList = ({ data }: { data: any[] }) => {
       <Header></Header>
       <div
         id="itemlist"
-        className="grid grid-cols-1 gap-16 dark bg-background text-foreground w-[80%]"
+        className="grid grid-cols-1 gap-10 dark bg-background text-foreground w-[80%]"
       >
-        <div className="mt-24 ml-10 flex flex-col gap-6 col-span-1">
-          <h1 className="text-4xl">
+        <div className="mt-24 ml-10 flex flex-col gap-4 col-span-1">
+          <h1 className="text-4xl font-bold">
             {activeCountry ? activeCountry : "All categories"}
           </h1>
-          <h2 className="text-2xl">
+          <h2 className="text-xl text-default-500">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae,
             recusandae?
           </h2>
         </div>
         <div className="md:ml-10 md:mr-10 mr-3">
-          {FivePages.length > 0 ? (
+          {/* {FivePages.length > 0 ? (
             FivePages.map((item: any) => (
               <Card
                 key={item.id}
@@ -72,7 +72,29 @@ export const ItemsList = ({ data }: { data: any[] }) => {
             ))
           ) : (
             <p>No data</p>
-          )}
+          )} */}
+          <Card className="gap-3 pt-5 pb-5 pr-5">
+            {FivePages.length > 0 ? (
+              FivePages.map((item: any) => (
+                <Link href={"/details/" + item.id}>
+                  <div className="grid grid-cols-12 items-center">
+                    <div className="grid justify-center col-span-1 items-center  sm:pr-0">
+                      <Image
+                        className="object-cover w-10 h-10 min-w-10 min-h-10 rounded-none"
+                        alt="CompanyImage"
+                        src={item.imgTitle}
+                      />
+                    </div>
+                    <p className="text-md col-span-11 md:pl-0 pl-5">
+                      {item.title}
+                    </p>
+                  </div>
+                </Link>
+              ))
+            ) : (
+              <p>No data</p>
+            )}
+          </Card>
         </div>
         <div className="col-span-1 pr-5 md:pb-10 md:pr-10 md:pl-10">
           <div className="w-full grid col-span-1  grid-cols-1  gap-3 lg:gap-6">
@@ -103,7 +125,7 @@ export const ItemsList = ({ data }: { data: any[] }) => {
                       </div>
                       <Image
                         alt="Card background"
-                        className="object-cover rounded-xl w-96 h-48"
+                        className="object-cover rounded-xl w-[100vw] h-[20vw]"
                         src={item.img}
                       />
                       <div className="flex flex-col w-full">

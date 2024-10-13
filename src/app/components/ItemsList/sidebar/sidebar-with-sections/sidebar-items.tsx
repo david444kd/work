@@ -97,16 +97,16 @@ export const sectionItems: SidebarItem[] = [
 
     items: [
       {
-        key: "home",
+        key: "О проекте",
         href: "#",
         icon: "solar:home-2-linear",
-        title: "Home",
+        title: "О проекте",
       },
       {
-        key: "projects",
+        key: "Статьи",
         href: "#",
         icon: "solar:widget-2-outline",
-        title: "Projects",
+        title: "Статьи",
         // endContent: (
         //   <Icon
         //     className="text-default-400"
@@ -116,10 +116,10 @@ export const sectionItems: SidebarItem[] = [
         // ),
       },
       {
-        key: "tasks",
+        key: "Видео",
         href: "#",
         icon: "solar:checklist-minimalistic-outline",
-        title: "Tasks",
+        title: "Видео",
         // endContent: (
         //   <Icon
         //     className="text-default-400"
@@ -152,9 +152,9 @@ export const sectionItems: SidebarItem[] = [
     title: "Organization",
     items: [
       {
-        key: "cap_table",
+        key: "Материалы",
         href: "#",
-        title: "Cap Table",
+        title: "Материалы",
         icon: "solar:pie-chart-2-outline",
         items: [
           {
@@ -175,15 +175,27 @@ export const sectionItems: SidebarItem[] = [
         ],
       },
       {
-        key: "analytics",
+        key: "Книга",
         href: "#",
         icon: "solar:chart-outline",
-        title: "Analytics",
+        title: "Книга",
         endContent: (
           <Chip size="sm" variant="flat">
             3
           </Chip>
         ),
+      },
+      {
+        key: "Агентство",
+        href: "#",
+        icon: "solar:chart-outline",
+        title: "Агентство",
+      },
+      {
+        key: "Процесс",
+        href: "#",
+        icon: "solar:chart-outline",
+        title: "Процесс",
       },
       // {
       //   key: "perks",
