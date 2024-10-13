@@ -10,8 +10,10 @@ import {
   Link as NextUiLink,
   Button,
 } from "@nextui-org/react";
+
 import { Chip } from "@nextui-org/chip";
 import Discord from "@/app/components/icons/discord";
+import Location from "@/app/components/icons/location";
 export const PageContent = ({ pageData }: any) => {
   console.log(pageData?.text?.split("/") || []);
 
@@ -46,17 +48,7 @@ export const PageContent = ({ pageData }: any) => {
             <h1 className="text-2xl">{pageData.title}</h1>
             <div className="flex gap-4 text-default-600">
               <p>{pageData.author}</p>
-
               <p>{pageData.date}</p>
-            </div>
-
-            <div className="flex gap-4">
-              <Chip color="primary">{pageData.type}</Chip>
-
-              <Chip>{pageData.country}</Chip>
-
-              <Chip>{pageData.category}</Chip>
-
               <NextUiLink
                 href={pageData.link}
                 target="_blank"
@@ -64,6 +56,15 @@ export const PageContent = ({ pageData }: any) => {
               >
                 Website
               </NextUiLink>
+            </div>
+
+            <div className=" flex flex-col gap-4">
+              {/* <Chip color="primary">{pageData.type}</Chip> */}
+
+              <div className="flex items-center text-default-700 text-sm">
+                <Location />
+                <p>{pageData.country}</p>
+              </div>
             </div>
 
             <div className="flex flex-col gap-2">
