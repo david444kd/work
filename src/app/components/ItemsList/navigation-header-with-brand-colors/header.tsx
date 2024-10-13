@@ -17,6 +17,10 @@ import {
   DropdownItem,
   Avatar,
   Badge,
+  ScrollShadow,
+  Tabs,
+  Tab,
+  Chip,
 } from "@nextui-org/react";
 import { Icon } from "@iconify/react";
 import { AcmeIcon } from "./social";
@@ -24,6 +28,8 @@ import { useFilter } from "../../FilterContext";
 import { data } from "../../../data";
 
 export default function Header() {
+  const [selectedTab, setSelectedTab] = useState("country");
+
   const [countries, setCountries] = useState<string[]>([]);
   const [categories, setCategories] = useState<string[]>([]);
   const [types, setTypes] = useState<string[]>([]);
@@ -173,7 +179,7 @@ export default function Header() {
         </NavbarBrand>
 
         <NavbarContent justify="start">
-          <NavbarItem className="sm:flex gap-4 hidden">
+          {/* <NavbarItem className="sm:flex gap-4 hidden">
             <Link href="/pages/page2">Page2</Link>
             {countries.length > 1 &&
               countries.map((country) => (
@@ -218,7 +224,31 @@ export default function Header() {
                   {company}
                 </Button>
               ))}
-          </NavbarItem>
+          </NavbarItem> */}
+          <ScrollShadow
+            hideScrollBar
+            className="sm:flex hidden w-full max-w-[1024px] justify-between gap-8  border-divider px-4 sm:px-8"
+            orientation="horizontal"
+          >
+            <Tabs
+              aria-label="Navigation Tabs"
+              classNames={{
+                tabList: "w-full relative rounded-none p-0 gap-4 lg:gap-6",
+                tab: "max-w-fit px-0 h-12",
+                cursor: "w-full",
+                tabContent: "text-default-400 ",
+              }}
+              radius="full"
+              variant="underlined"
+              selectedKey={activeCountry}
+              onSelectionChange={(key) => changeValue(String(key), "country")}
+            >
+              {countries.length > 1 &&
+                countries.map((country) => (
+                  <Tab key={country} title={country} />
+                ))}
+            </Tabs>
+          </ScrollShadow>
         </NavbarContent>
 
         {/* Right Menu */}

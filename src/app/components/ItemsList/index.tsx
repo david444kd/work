@@ -78,10 +78,7 @@ export const ItemsList = ({ data }: { data: any[] }) => {
           <div className="w-full grid col-span-1  grid-cols-1  gap-3 lg:gap-6">
             {currentPosts.length > 0 ? (
               currentPosts.map((item: any) => (
-                <Card
-                  key={item.id}
-                  className="hover:shadow-lg hover:shadow-gray-600 hover:transition-all hover:w-[101%] hover:h-[101%] "
-                >
+                <Card key={item.id} className="hover:bg-default-200">
                   <Link href={"/details/" + item.id} className="p-3 h-full">
                     <CardHeader className="flex flex-col gap-3 ">
                       <div className="flex w-full items-center justify-between mb-1">
