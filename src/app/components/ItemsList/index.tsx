@@ -76,7 +76,7 @@ export const ItemsList = ({ data }: { data: any[] }) => {
           <Card className="gap-3 pt-5 pb-5 pr-5">
             {FivePages.length > 0 ? (
               FivePages.map((item: any) => (
-                <Link href={"/details/" + item.id}>
+                <Link href={"/details/" + item.id} key={item.id}>
                   <div className="grid grid-cols-12 items-center">
                     <div className="grid justify-center col-span-1 items-center  sm:pr-0">
                       <Image
