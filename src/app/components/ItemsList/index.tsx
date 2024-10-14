@@ -183,26 +183,18 @@ export const ItemsList = ({ data }: { data: any[] }) => {
           </div>
         </div>
       </div>
-      <Card
-        className="overflow-visible hidden md:grid w-[18%] mr-5 h-[50%] mt-24 fixed z-50"
-        shadow="sm"
-      >
-        <CardBody className="items-center py-5 text-center">
+
+      <div className="overflow-visible hidden md:grid w-[18%] mr-5  mt-24 fixed z-50">
+        <Button
+          className=" flex flex-col bg-default-50 justify-start items-center h-full w-full px-0"
+          onPress={onOpen}
+        >
           <Image
             src="https://insidefmcg.com.au/wp-content/uploads/2021/03/Venchi-London-store.jpg"
-            className="h-[20vw] object-cover"
+            className="h-[20vw] min-w-[100%] object-cover"
           />
-          <h3 className="text-medium font-medium text-default-700">
-            Upgrade to Pro
-            <span aria-label="rocket-emoji" className="ml-2" role="img">
-              🚀
-            </span>
-          </h3>
-          <p className="p-4 text-small text-default-500">
-            Get 1 month free and unlock all the features of the pro plan.
-          </p>
-        </CardBody>
-        <CardFooter className="absolute -bottom-8 justify-center">
+
+          {/* <CardFooter className="absolute -bottom-8 justify-center">
           <Button
             className="px-10 shadow-md"
             color="primary"
@@ -212,8 +204,17 @@ export const ItemsList = ({ data }: { data: any[] }) => {
           >
             Upgrade
           </Button>
-        </CardFooter>
-      </Card>
+        </CardFooter> */}
+        </Button>
+        <div>
+          <p className="text-default-900">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis
+            reprehenderit ab aspernatur tempore quo molestias corporis aliquam
+            beatae unde corrupti deserunt id enim at totam expedita, veniam
+            numquam sed delectus.
+          </p>
+        </div>
+      </div>
     </>
   );
 };
