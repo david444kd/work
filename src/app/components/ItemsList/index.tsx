@@ -73,7 +73,10 @@ export const ItemsList = ({ data }: { data: any[] }) => {
           ) : (
             <p>No data</p>
           )} */}
-          <Card className="gap-3 pt-5 pb-5 pr-5">
+          <Card
+            className="gap-3 pt-5 pb-5 pr-5 border border-default-200"
+            shadow="none"
+          >
             {FivePages.length > 0 ? (
               FivePages.map((item: any) => (
                 <Link href={"/details/" + item.id} key={item.id}>
@@ -100,7 +103,11 @@ export const ItemsList = ({ data }: { data: any[] }) => {
           <div className="w-full grid col-span-1  grid-cols-1  gap-3 lg:gap-6">
             {currentPosts.length > 0 ? (
               currentPosts.map((item: any) => (
-                <Card key={item.id} className="hover:bg-default-200">
+                <Card
+                  key={item.id}
+                  className="hover:bg-default-200 border border-default-200"
+                  shadow="none"
+                >
                   <Link href={"/details/" + item.id} className="p-3 h-full">
                     <CardHeader className="flex flex-col gap-3 ">
                       <div className="flex w-full items-center justify-between mb-1">
