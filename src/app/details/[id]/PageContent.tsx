@@ -8,7 +8,13 @@ import {
   CardFooter,
   Image,
   Link as NextUiLink,
+  Modal,
+  ModalContent,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
   Button,
+  useDisclosure,
 } from "@nextui-org/react";
 
 import { Chip } from "@nextui-org/chip";
@@ -16,10 +22,50 @@ import Discord from "@/app/components/icons/discord";
 import Location from "@/app/components/icons/location";
 export const PageContent = ({ pageData }: any) => {
   console.log(pageData?.text?.split("/") || []);
+  const { isOpen, onOpen, onOpenChange } = useDisclosure();
 
   return (
-    <div className="flex justify-start w-[80%] sm:pl-10 mt-10">
-      <div className="sm:w-[71%] w-[90%] pl-9 p-7">
+    <div className="flex justify-start w-[80%] sm:pl-10 mt-10 ">
+      <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
+        <ModalContent className="text-black">
+          {(onClose) => (
+            <>
+              <ModalHeader className="flex flex-col gap-1">
+                Modal Title
+              </ModalHeader>
+              <ModalBody>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam pulvinar risus non risus hendrerit venenatis.
+                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam pulvinar risus non risus hendrerit venenatis.
+                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
+                </p>
+                <p>
+                  Magna exercitation reprehenderit magna aute tempor cupidatat
+                  consequat elit dolor adipisicing. Mollit dolor eiusmod sunt ex
+                  incididunt cillum quis. Velit duis sit officia eiusmod Lorem
+                  aliqua enim laboris do dolor eiusmod. Et mollit incididunt
+                  nisi consectetur esse laborum eiusmod pariatur proident Lorem
+                  eiusmod et. Culpa deserunt nostrud ad veniam.
+                </p>
+              </ModalBody>
+              <ModalFooter>
+                <Button color="danger" variant="light" onPress={onClose}>
+                  Close
+                </Button>
+                <Button color="primary" onPress={onClose}>
+                  Action
+                </Button>
+              </ModalFooter>
+            </>
+          )}
+        </ModalContent>
+      </Modal>
+      <div className="sm:w-[71%] w-[90%] pl-3 mt-7">
         <div className="flex flex-col gap-8 mb-5">
           {/* <Link
             href="/"
@@ -41,7 +87,7 @@ export const PageContent = ({ pageData }: any) => {
               <Image
                 src={pageData.imgTitle}
                 alt="imageTitle"
-                className="xl:w-40 xl:h-40 lg:w-32 lg:h-32 w-20 h-20 absolute z-50 max-w-[100vw] -bottom-6 sm:-bottom-8   lg:-bottom-20" // Добавляем абсолютное позиционирование
+                className="xl:w-40 xl:h-40 lg:w-32 lg:h-32 md:w-20 md:h-20 w-16 h-16 absolute z-50 max-w-[100vw] left-4 -bottom-6 sm:-bottom-8   lg:-bottom-20"
               />
             </div>
 
@@ -106,7 +152,7 @@ export const PageContent = ({ pageData }: any) => {
         </Card>
       </div>
 
-      <div className="pt-12 w-[24%] fixed right-0 pr-28 hidden md:grid">
+      <div className="pt-12 w-[24%] fixed right-0  pr-28 hidden md:grid">
         <Card className="w-full mb-10">
           <CardHeader className="flex flex-col gap-3 ">
             <div className="flex w-full items-center justify-between mb-1">
@@ -161,6 +207,7 @@ export const PageContent = ({ pageData }: any) => {
               color="primary"
               radius="full"
               variant="shadow"
+              onPress={onOpen}
             >
               Upgrade
             </Button>

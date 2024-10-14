@@ -3,13 +3,23 @@ import Link from "next/link";
 import { Image } from "@nextui-org/react";
 
 import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/card";
-import { Pagination } from "@nextui-org/react";
+import {
+  Pagination,
+  Modal,
+  ModalContent,
+  ModalHeader,
+  ModalBody,
+  ModalFooter,
+  Button,
+  useDisclosure,
+} from "@nextui-org/react";
 
 import { useState } from "react";
 import { useFilter } from "../FilterContext";
 
 import Header from "./navigation-header-with-brand-colors/header";
 export const ItemsList = ({ data }: { data: any[] }) => {
+  const { isOpen, onOpen, onOpenChange } = useDisclosure();
   const [currentPage, setCurrentPage] = useState(1);
   const PostsPerPage = 12;
 
@@ -35,9 +45,48 @@ export const ItemsList = ({ data }: { data: any[] }) => {
   return (
     <>
       <Header></Header>
+      <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
+        <ModalContent className="text-black">
+          {(onClose) => (
+            <>
+              <ModalHeader className="flex flex-col gap-1">
+                Modal Title
+              </ModalHeader>
+              <ModalBody>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam pulvinar risus non risus hendrerit venenatis.
+                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam pulvinar risus non risus hendrerit venenatis.
+                  Pellentesque sit amet hendrerit risus, sed porttitor quam.
+                </p>
+                <p>
+                  Magna exercitation reprehenderit magna aute tempor cupidatat
+                  consequat elit dolor adipisicing. Mollit dolor eiusmod sunt ex
+                  incididunt cillum quis. Velit duis sit officia eiusmod Lorem
+                  aliqua enim laboris do dolor eiusmod. Et mollit incididunt
+                  nisi consectetur esse laborum eiusmod pariatur proident Lorem
+                  eiusmod et. Culpa deserunt nostrud ad veniam.
+                </p>
+              </ModalBody>
+              <ModalFooter>
+                <Button color="danger" variant="light" onPress={onClose}>
+                  Close
+                </Button>
+                <Button color="primary" onPress={onClose}>
+                  Action
+                </Button>
+              </ModalFooter>
+            </>
+          )}
+        </ModalContent>
+      </Modal>
       <div
         id="itemlist"
-        className="grid grid-cols-1 gap-10 dark bg-background text-foreground w-[80%]"
+        className="grid grid-cols-1 gap-7 dark bg-background text-foreground w-[83%] md:w-[59%] md:mr-[20%]"
       >
         <div className="mt-24 ml-10 flex flex-col gap-4 col-span-1">
           <h1 className="text-4xl font-bold">
@@ -49,41 +98,14 @@ export const ItemsList = ({ data }: { data: any[] }) => {
           </h2>
         </div>
         <div className="md:ml-10 md:mr-10 mr-3">
-          {/* {FivePages.length > 0 ? (
-            FivePages.map((item: any) => (
-              <Card
-                key={item.id}
-                shadow="none"
-                className="mt-2 justify-center h-[20vw] sm:h-[10] md:h-[5vw] xl:h-[3vw]"
-              >
-                <Link href={"/details/" + item.id}>
-                  <div className="grid grid-cols-12 items-center">
-                    <div className="grid justify-center col-span-1 items-center  mr-3 sm:pr-0">
-                      <Image
-                        className="object-cover rounded-xl w-16 h-10"
-                        alt="CompanyImage"
-                        src={item.img}
-                      />
-                    </div>
-                    <p className="text-md col-span-11">{item.title}</p>
-                  </div>
-                </Link>
-              </Card>
-            ))
-          ) : (
-            <p>No data</p>
-          )} */}
-          <Card
-            className="gap-3 pt-5 pb-5 pr-5 border border-default-200"
-            shadow="none"
-          >
+          <Card className="gap-6 p-3 border border-default-200" shadow="none">
             {FivePages.length > 0 ? (
               FivePages.map((item: any) => (
                 <Link href={"/details/" + item.id} key={item.id}>
                   <div className="grid grid-cols-12 items-center">
-                    <div className="grid justify-center col-span-1 items-center  sm:pr-0 pl-6 pr-3">
+                    <div className="grid justify-center col-span-1 items-center  sm:pr-0 md:pl-0 pl-6 ">
                       <Image
-                        className="object-cover w-10 h-10 min-w-10 min-h-10 rounded-none"
+                        className="object-cover w-10 h-10 min-w-10 min-h-10 rounded-none mr-3"
                         alt="CompanyImage"
                         src={item.imgTitle}
                       />
@@ -161,6 +183,37 @@ export const ItemsList = ({ data }: { data: any[] }) => {
           </div>
         </div>
       </div>
+      <Card
+        className="overflow-visible hidden md:grid w-[18%] mr-5 h-[50%] mt-24 fixed z-50"
+        shadow="sm"
+      >
+        <CardBody className="items-center py-5 text-center">
+          <Image
+            src="https://insidefmcg.com.au/wp-content/uploads/2021/03/Venchi-London-store.jpg"
+            className="h-[20vw] object-cover"
+          />
+          <h3 className="text-medium font-medium text-default-700">
+            Upgrade to Pro
+            <span aria-label="rocket-emoji" className="ml-2" role="img">
+              🚀
+            </span>
+          </h3>
+          <p className="p-4 text-small text-default-500">
+            Get 1 month free and unlock all the features of the pro plan.
+          </p>
+        </CardBody>
+        <CardFooter className="absolute -bottom-8 justify-center">
+          <Button
+            className="px-10 shadow-md"
+            color="primary"
+            radius="full"
+            variant="shadow"
+            onPress={onOpen}
+          >
+            Upgrade
+          </Button>
+        </CardFooter>
+      </Card>
     </>
   );
 };

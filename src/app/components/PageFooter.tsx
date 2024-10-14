@@ -16,7 +16,7 @@ export const PageFooter = () => {
     <>
       <div
         // maxWidth="full"
-        className="flex h-64 z-40 mt-72 md:mt-40 lg:mt-10 right-0    items-center  data-[menu-open=true]:border-none sticky inset-x-0 backdrop-blur-lg data-[menu-open=true]:backdrop-blur-xl backdrop-saturate-150 bg-background/70 sm:m-0 m-[20%] sm:p-[3%]"
+        className="flex h-64 z-40 mt-48 md:mt-40 lg:mt-10 right-0    items-center  data-[menu-open=true]:border-none relative pt-[100%] inset-x-0 backdrop-blur-lg data-[menu-open=true]:backdrop-blur-xl backdrop-saturate-150 bg-background/70 sm:m-0 m-[20%] sm:p-[3%]"
       >
         <div className="w-full">
           <Divider></Divider>

@@ -12,7 +12,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.globenewswire.com/en/news-release/2023/03/15/2627977/0/en/Zadara-Expands-LATAM-Presence.html",
-    imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
     nearImgTitle: "Brooklyn simons",
     nearImgText: "0 x 123...4567",
@@ -31,7 +31,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://technode.global/2023/04/06/singapores-agritech-firm-archisen-eyes-expansion-to-cities-in-apac-middle-east-while-it-expands-capacity-in-home-market/",
-    imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
     nearImgTitle: "Brooklyn simons",
     nearImgText: "0 x 123...4567",
@@ -50,7 +50,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.webintravel.com/lighthouse-expands-in-apac-brings-its-insights-to-hoteliers-in-the-region/",
-    imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
     nearImgTitle: "Brooklyn simons",
     nearImgText: "0 x 123...4567",
@@ -68,7 +68,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://fst.net.au/asia-financial-services-news/mastercard-agritech-platform-expands-across-apac/",
-    imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
     nearImgTitle: "Brooklyn simons",
     nearImgText: "0 x 123...4567",
@@ -86,7 +86,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://lbbonline.com/news/wunderman-thompsons-peer-to-peer-mentoring-app-for-women-expands-across-apac",
-    imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
     nearImgTitle: "Brooklyn simons",
     nearImgText: "0 x 123...4567",
@@ -105,7 +105,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.forbes.com/sites/veronicavillafane/2019/02/12/netflix-has-big-latam-expansion-plans-produce-50-shows-in-mexico-and-open-mexico-city-office/",
-    imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
     nearImgTitle: "Brooklyn simons",
     nearImgText: "0 x 123...4567",
@@ -124,7 +124,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.ttgasia.com/2022/04/11/tui-blue-hotels-resorts-makes-three-new-hires-eyes-apac-expansion/",
-    imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
     nearImgTitle: "Brooklyn simons",
     nearImgText: "0 x 123...4567",
@@ -142,7 +142,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.ttgasia.com/2021/09/17/club-med-eyes-aggressive-expansion-in-apac/",
-    imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
     nearImgTitle: "Brooklyn simons",
     nearImgText: "0 x 123...4567",
@@ -160,7 +160,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.ttgasia.com/2019/03/26/former-buzzfeed-japan-ceo-joins-sojern-to-lead-apac-expansion/",
-    imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
     nearImgTitle: "Brooklyn simons",
     nearImgText: "0 x 123...4567",
@@ -177,7 +177,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.travelweekly.com.au/article/wex-business-expansion-in-apac-means-new-role-for-jason-hancock/",
-    imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
     nearImgTitle: "Brooklyn simons",
     nearImgText: "0 x 123...4567",
@@ -194,7 +194,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.travelweekly.com.au/article/ponant-commercial-team-expands-to-meet-growing-demand-in-apac/",
-    imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
     nearImgTitle: "Brooklyn simons",
     nearImgText: "0 x 123...4567",
@@ -212,7 +212,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://totaltele.com/subtonomy-continues-expansion-into-mea-and-apac-announces-new-sales-offices-in-paris-france-and-kuala-lumpur-malaysia-2/",
-    imgTitle: "https://www.svgrepo.com/show/202828/zombie.svg",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
     notion: "https://www.svgrepo.com/show/521773/notion.svg",
     nearImgTitle: "Brooklyn simons",
     nearImgText: "0 x 123...4567",
@@ -229,6 +229,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://itbrief.com.au/story/franconnect-hits-new-milestone-with-expansion-into-apac",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 185,
@@ -244,6 +245,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://thefintechtimes.com/nayax-acquires-vmtecnologia-latam/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 309,
@@ -256,6 +258,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.tipranks.com/news/company-announcements/dollarama-shows-strong-q1-growth-expands-latam-presence",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 60,
@@ -270,6 +273,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.nutraingredients-asia.com/Article/2021/06/14/BY-HEALTH-s-APAC-expansion-China-brand-sees-beauty-from-within-and-female-health-markets-as-first-steps",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 266,
@@ -285,6 +289,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.brandinginasia.com/groupms-expands-essence-apac-presence-with-offices-in-beijing-and-shanghai/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 113,
@@ -299,6 +304,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://sg.finance.yahoo.com/news/marketing-practice-announces-apac-expansion-020000433.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 293,
@@ -314,6 +320,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://technode.global/2024/05/02/hong-kong-language-ai-firm-fano-labs-fuels-apac-expansion-with-series-b-funding/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 2,
@@ -329,6 +336,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.thedailystar.net/tech-startup/news/zoho-marks-its-apac-expansion-first-ever-user-conference-dhaka-3435431",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 259,
@@ -344,6 +352,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://airtrunk.com/airtrunk-continues-rapid-apac-expansion-with-a-new-20mw-hyperscale-data-centre-in-hong-kong/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 84,
@@ -358,6 +367,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.ttgasia.com/2021/02/25/erawan-group-marches-on-with-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 18,
@@ -372,6 +382,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://musically.com/2020/09/15/wmgs-ada-worldwide-follows-latam-expansion-with-asia-launch/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 377,
@@ -386,6 +397,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.artemis.bm/news/arbol-hires-jeffrey-khoo-from-ed-to-lead-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 99,
@@ -400,6 +412,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.airlineratings.com/news/latam-launches-major-international-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 257,
@@ -414,6 +427,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.dealstreetasia.com/stories/hong-kongs-fano-labs-completes-series-b-round-to-fund-apac-expansion-394446",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 213,
@@ -429,6 +443,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.stattimes.com/air-cargo/latam-cargo-completes-fleet-expansion-capacity-up-over-70-vs-2019-1350421",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 222,
@@ -444,6 +459,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.stattimes.com/news/kuehne-nagel-completes-acquisition-of-apex-expands-footprint-in-apac-logistics/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 184,
@@ -458,6 +474,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.frontier-enterprise.com/ncs-launches-next-cloud-lab-in-oz-amid-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 374,
@@ -472,6 +489,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.frontier-enterprise.com/arkphire-expands-in-singapore-apac-with-generic-technologies-acquisition/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 62,
@@ -486,6 +504,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://thepienews.com/hti-enters-latam-spiible-pship/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 132,
@@ -500,6 +519,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.heavyliftpfi.com/business/rhenus-projects-expands-in-latam/22338.article",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 367,
@@ -513,6 +533,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.financemagnates.com/fintech/webull-expands-into-australia-in-third-apac-launch/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 295,
@@ -526,6 +547,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://channellife.co.nz/story/endava-expands-partnership-with-google-cloud-across-apac",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 427,
@@ -540,6 +562,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://news.bitcoin.com/spanish-crypto-atm-company-bitbase-eyes-european-and-latam-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 428,
@@ -554,6 +577,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://news.bitcoin.com/latam-insights-solana-expands-to-brazil-tether-seeks-to-expand-in-venezuela/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 429,
@@ -568,6 +592,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://news.bitcoin.com/latam-insights-argentinas-milei-states-dollarization-is-close-bitfarms-expands-in-paraguay/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 430,
@@ -582,6 +607,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://news.bitcoin.com/latam-insights-argentina-to-regulate-crypto-via-decree-bitget-eyes-latam-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 431,
@@ -596,6 +622,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://news.bitcoin.com/latam-cryptocurrency-exchange-bitso-announces-layoffs-amidst-expansion-to-colombia/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 433,
@@ -610,6 +637,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://news.bitcoin.com/cryptocurrency-exchange-bitget-eyes-latam-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 325,
@@ -623,6 +651,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.securitiesfinancetimes.com/securitieslendingnews/peoplemovesarticle.php?article_id=222150&navigationaction=peoplemovesnews&newssection=people",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 380,
@@ -638,6 +667,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.aviacionline.com/2024/02/latam-expands-codeshare-with-turkish-and-includes-more-routes-between-europe-and-istanbul/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 83,
@@ -652,6 +682,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.arnnet.com.au/article/1265040/symbio-ditches-tnzi-brand-ahead-of-apac-expansion.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 119,
@@ -666,6 +697,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.arnnet.com.au/article/1262735/netskope-sets-sights-on-apac-network-expansion.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 153,
@@ -680,11 +712,13 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://contxto.com/en/news/fintech-payu-expands-in-latam-after-acquiring-ding-and-leading-investment-in-treinta/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 371,
     title: "Howden expands LatAm D&O team with Aon’s Oliveira and Marcelino",
     text: "As a premium subscriber, you can gift this article for free\n\nCopy gift link\n\nhttps://www.demo.com/demo-article/ Link copied to clipboard\n\nYou have reached the limit for gifting for this month\n\nThere was an error processing the request. Please try again later.",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
     img: "https://assets.euromoneydigital.com/dims4/default/3598f9a/2147483647/strip/true/crop/700x368+0+21/resize/1200x630!/quality/90/?url=http%3A%2F%2Feuromoney-brightspot.s3.amazonaws.com%2F92%2F8a%2F4e6367c2426bbb2fc24280e0bf5f%2Fhowden-logo-cyber-2023.png",
     date: "2024-02-08",
     author: "Samuel Casey",
@@ -694,6 +728,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.insuranceinsider.com/article/2ctkkt1xxh2tcqsak83k0/brokers-section/howden-expands-latam-d-o-team-with-aons-oliveira-and-marcelino",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 140,
@@ -708,6 +743,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.thedrum.com/news/2022/06/09/publicis-expands-le-pub-apac-and-latin-america-with-heineken-first-global-client",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 220,
@@ -722,6 +758,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.aerotime.aero/articles/25379-latam-brazil-chapter-11-fund-acquisition",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 29,
@@ -736,6 +773,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://insidefmcg.com.au/2021/03/23/venchi-eyes-australia-as-part-of-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 336,
@@ -749,6 +787,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.insurancebusinessmag.com/au/news/breaking-news/canopius-expands-apac-team-460719.aspx",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 381,
@@ -762,6 +801,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.insurancebusinessmag.com/au/news/breaking-news/canopius-continues-apac-expansion-444532.aspx",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 116,
@@ -777,6 +817,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.futuretravelexperience.com/2024/01/latam-expands-ife-partnership-with-touch-for-unique-and-culturally-rich-inflight-entertainment-experience/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 47,
@@ -791,6 +832,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.xrtoday.com/augmented-reality/snap-miroma-project-factory-expands-apac-coverage/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 413,
@@ -806,6 +848,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://campaignbrief.co.nz/2023/03/08/wunderman-thompson-expands-mentoring-app-across-apac-ahead-of-global-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 414,
@@ -821,6 +864,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://campaignbrief.com/european-production-led-creative-agency-whale-expands-into-apac-with-new-melbourne-office/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 56,
@@ -835,6 +879,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.telcotitans.com/deutsche-telekomwatch/1nce-taps-vodafone-know-how-for-europe-and-apac-expansion/5809.article",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 291,
@@ -849,6 +894,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://finance.yahoo.com/news/ride-hailing-app-cabify-raises-004547856.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 11,
@@ -863,6 +909,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://blooloop.com/brands-ip/news/max-matching-wildbrain/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 177,
@@ -876,6 +923,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.thefastmode.com/investments-and-expansions/35902-netmore-group-expands-its-iot-business-into-apac-region",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 255,
@@ -890,6 +938,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.ttgasia.com/2019/06/26/bali-sentosa-and-india-next-in-line-for-raffless-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 103,
@@ -903,6 +952,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.computerweekly.com/news/252527544/Slack-expands-footprint-in-APAC",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 258,
@@ -917,6 +967,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.ttgasia.com/2019/11/08/artyzen-readies-for-apac-expansion-including-singapore-and-china/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 169,
@@ -931,6 +982,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.mingtiandi.com/real-estate/people/ares-to-enter-japan-as-apac-expansion-continues/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 245,
@@ -945,6 +997,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.mingtiandi.com/real-estate/crelist/dash-living-raises-cash-for-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 124,
@@ -959,6 +1012,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.digitimes.com/news/a20230530VL203/east-asia-china-adas-sales-zf.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 215,
@@ -974,6 +1028,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.aeroflap.com.br/en/Latam%27s-first-Boeing-777-with-new-interior-goes-into-regular-operation/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 136,
@@ -988,6 +1043,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://shorttermrentalz.com/news/mondee-interep-acquisition/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 385,
@@ -1002,6 +1058,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://contxto.com/en/news/spain-based-katoo-expands-into-latam-to-improve-restaurant-supplier-relationships/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 342,
@@ -1016,6 +1073,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://contxto.com/en/startups/mexican-delivery-startup-calii-raises-us22-5-million-for-expansion-in-latam/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 260,
@@ -1030,6 +1088,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.ttgasia.com/2018/09/27/hilton-doubles-down-on-expansion-manpower-investment-in-apac/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 121,
@@ -1044,6 +1103,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://ciosea.economictimes.indiatimes.com/news/security/synacors-cloud-id-expands-apac-presence-with-abs-cbns-the-filipino-channel/105369746",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 227,
@@ -1058,6 +1118,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://ciosea.economictimes.indiatimes.com/news/corporate/tricentis-opens-new-office-in-japan-continues-apac-expansion/108100055",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 228,
@@ -1072,6 +1133,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://ciosea.economictimes.indiatimes.com/news/corporate/nuvei-secures-mpi-license-in-singapore-to-accelerate-apac-expansion/109330104",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 329,
@@ -1086,6 +1148,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://ciosea.economictimes.indiatimes.com/news/corporate/hackerone-doubles-down-on-apac-expansion-appoints-regional-leadership/107705272",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 269,
@@ -1100,6 +1163,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.australianmining.com.au/gma-garnet-expands-apac-footprint/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 76,
@@ -1114,6 +1178,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.ticketnews.com/2023/08/secutix-expands-into-latam-sports-with-fantix/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 68,
@@ -1127,6 +1192,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.nutraingredients-asia.com/Article/2022/05/17/collagen-drink-firm-dahmeh-rebrands-for-apac-emea-expansion",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 33,
@@ -1140,6 +1206,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://citywire.com/asia/news/ubs-hires-cio-to-drive-apac-alternatives-expansion/a2386300",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 167,
@@ -1154,6 +1221,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://coinpedia.org/crypto-live-news/okx-launches-regulated-entity-in-australia-amid-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 211,
@@ -1168,6 +1236,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.nlarenas.com/en/2023/11/latam-pass-amplia-beneficios/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 424,
@@ -1182,6 +1251,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://sg.finance.yahoo.com/news/weave-living-secures-investment-fuel-105607767.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 284,
@@ -1196,6 +1266,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.foodnavigator-latam.com/Article/2019/10/07/NotCo-business-chief-talks-artificial-intelligence-new-products-and-LATAM-expansion-challenges",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 65,
@@ -1211,6 +1282,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://fox4kc.com/business/press-releases/cision/20230411CG64881/activecampaign-expands-in-latam-invests-in-improved-customer-experience/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 59,
@@ -1225,6 +1297,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://variety.com/2022/global/news/disney-apac-kodansha-anime-1235445013/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 57,
@@ -1239,6 +1312,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.capacitymedia.com/article/2daplor0kxrm93nvephq8/news/transatel-unveils-latam-expansion",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 134,
@@ -1254,6 +1328,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.musicbusinessworldwide.com/revelator-expands-in-latam-hiring-luciana-pegorer-and-arturo-soler-to-lead-offices-in-brazil-and-mexico/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 158,
@@ -1269,6 +1344,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.musicbusinessworldwide.com/deezer-expands-partnership-with-mercado-libre-in-latam-to-be-included-on-new-meli-subscription-service/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 369,
@@ -1283,6 +1359,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.cloudcomputing-news.net/news/2024/jun/13/aws-expands-in-asia-pacific-with-new-infrastructure-region-in-taiwan/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 242,
@@ -1296,6 +1373,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://datacenternews.asia/story/logos-and-pure-data-centres-partner-for-apac-expansion",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 270,
@@ -1311,6 +1389,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.c-mw.net/new-pcma-appointments-to-lead-expansion-in-apac-emea-and-latam-regions/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 271,
@@ -1326,6 +1405,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.c-mw.net/new-pcma-appointments-to-lead-expansion-in-apac-emea-and-latam-regions/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 123,
@@ -1340,6 +1420,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.digit.fyi/scots-scale-up-novosound-eyes-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 372,
@@ -1354,6 +1435,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "http://caribbean.loopnews.com/content/latam-airlines-expands-direct-flights-lima-aruba",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 230,
@@ -1367,6 +1449,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://latinlawyer.com/article/italian-investor-funds-latam-expansion-of-spanish-education-group",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 332,
@@ -1381,6 +1464,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.reinsurancene.ws/consiliumre-to-strengthen-latam-ties-with-miami-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 205,
@@ -1396,6 +1480,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.sportbusiness.com/news/livemode-recruits-ex-meta-latam-sports-head-lenz-cesar-to-lead-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 97,
@@ -1411,6 +1496,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.produ.com/english/noticias/spanglish-movies-expands-spanglish-studios-to-include-film-distribution-in-latam/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 364,
@@ -1425,6 +1511,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://insightcrime.org/news/brief/peru-capture-further-evidence-italian-mafia-expansion-in-latam/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 322,
@@ -1439,6 +1526,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://w.media/damac-expands-into-apac-with-new-data-center-in-cyberjayaansion-plans-revealed/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 23,
@@ -1453,6 +1541,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.prnewswire.com/news-releases/lucent-bio-expands-to-the-us-eu-and-latam-meeting-rising-sustainable-agri-food-system-demands-with-climate-smart-crop-input-solutions-302079581.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 20,
@@ -1467,6 +1556,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://thecorner.eu/interviews/telefonicas-ceo-juan-villalonga-enters-board-virgin-mobile-latin-america/8799/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 135,
@@ -1482,6 +1572,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.produ.com/mercadeo/noticias/teads-latam-establishes-teads-vision-in-miami-and-announces-expansion-of-its-ctv-offer-in-mexico-and-brazil/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 274,
@@ -1495,6 +1586,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://lbbonline.com/news/little-black-book-expands-into-apac-appointing-toby-hemming-as-md",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 285,
@@ -1509,6 +1601,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.blockchaingamer.biz/news/23764/bitkraft-expands-apac-ex-riot-president-jin-oh/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 218,
@@ -1522,6 +1615,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://aviationweek.com/mro/emerging-technologies/latam-expands-drone-based-aircraft-inspections",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 125,
@@ -1535,6 +1629,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://latinlawyer.com/article/saudi-energy-group-aramco-enters-latam-fuel-retail-market",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 281,
@@ -1548,6 +1643,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://latinlawyer.com/article/fti-continues-latam-expansion-tozzinifreire-hire",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 339,
@@ -1561,6 +1657,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://latinlawyer.com/article/cdpq-enters-latam-power-transmission-market",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 10,
@@ -1574,6 +1671,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.licenseglobal.com/entertainment/wildbrain-expands-content-distribution-team-in-apac",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 24,
@@ -1589,6 +1687,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.arnnet.com.au/article/1262276/is-leidos-leveraging-australia-as-a-staging-point-for-apac-expansion.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 94,
@@ -1604,6 +1703,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://mumbrella.com.au/third-hemisphere-expands-to-apac-makes-four-new-senior-appointments-814724",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 350,
@@ -1618,6 +1718,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://mumbrella.com.au/koto-expands-into-apac-opens-sydney-office-799502",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 154,
@@ -1633,6 +1734,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://ffnews.com/newsarticle/paytech/paysecure-expands-its-global-reach-into-latam-by-strategically-partnering-with-a55/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 39,
@@ -1647,6 +1749,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://techcrunch.com/2022/08/11/fox-owned-tubi-expands-its-free-streaming-service-to-five-latin-american-countries/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 378,
@@ -1661,6 +1764,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://themusicnetwork.com/apra-amcos-matthew-fackrell-audoo-apac/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 331,
@@ -1676,6 +1780,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.traveldailymedia.com/conrad-hotels-resorts-new-luxury-hotel-in-shenzhen-china-1/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 319,
@@ -1690,6 +1795,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "http://koreabizwire.com/stack-infrastructure-expands-apac-footprint-with-new-36mw-campus-in-inzai-japan/209007",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 415,
@@ -1705,6 +1811,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://campaignbriefasia.com/2022/09/27/ueg-apac-officially-expands-with-a-new-team-culture-board-and-china-offering/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 416,
@@ -1720,6 +1827,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://campaignbriefasia.com/2024/06/13/stagwell-expands-apac-affiliate-network-with-the-additions-of-agency-arena-media-lodestar-marketing-and-rd-online-marketing-services/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 417,
@@ -1735,6 +1843,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://campaignbriefasia.com/2023/11/06/initiative-expands-apac-footprint-with-affiliate-agreement-launching-pakistan-office/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 418,
@@ -1750,6 +1859,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://campaignbriefasia.com/2021/10/27/edelman-apac-expands-studio-capability-with-multiple-senior-digital-hires-around-the-region/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 419,
@@ -1765,6 +1875,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://campaignbriefasia.com/2021/12/03/dentsu-launches-merkle-taiwan-and-expands-apac-customer-experience-management-services/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 110,
@@ -1779,6 +1890,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://theindependent.sg/terrapay-and-nuvei-ramp-up-apac-expansion-with-mpi-licenses/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 344,
@@ -1793,6 +1905,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.sportbusiness.com/news/caa-sports-targets-expansion-in-apac-with-slate-of-new-hires/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 193,
@@ -1806,6 +1919,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.insurancebusinessmag.com/asia/news/breaking-news/vivace-expands-with-apac-rebrand-and-americas-branch-481091.aspx",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 421,
@@ -1819,6 +1933,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.insurancebusinessmag.com/asia/news/breaking-news/europ-snags-axa-partners-businesses-for-apac-expansion-448590.aspx",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 327,
@@ -1833,6 +1948,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.prnewswire.com/news-releases/keeper-security-expands-global-reach-with-apac-headquarters-in-japan-301826464.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 333,
@@ -1846,6 +1962,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.bizcommunity.com/Article/196/747/144374.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 93,
@@ -1860,6 +1977,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.reinsurancene.ws/thb-to-retain-brand-name-amid-latam-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 190,
@@ -1875,6 +1993,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.reinsurancene.ws/mnk-group-expands-latam-business-with-costa-rica-based-insurer-acquisition/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 243,
@@ -1889,6 +2008,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.reinsurancene.ws/srs-expands-further-into-latam-with-delgados-appointment/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 316,
@@ -1903,6 +2023,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.reinsurancene.ws/stere-expands-into-latam-insurance-market/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 96,
@@ -1917,6 +2038,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.reinsurancene.ws/miller-expands-reinsurance-offering-with-new-apac-treaty-team/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 248,
@@ -1932,6 +2054,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://mumbrella.com.au/impact-com-expands-apac-team-with-string-of-new-hires-and-promotions-726217",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 286,
@@ -1946,6 +2069,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://sg.finance.yahoo.com/news/moderna-investor-flagship-pioneering-expands-140000162.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 411,
@@ -1960,6 +2084,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://businesscloud.co.uk/news/key-arrival-to-lead-10x-bankings-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 171,
@@ -1973,6 +2098,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.partnershipsbulletin.com/article/1756981/ellisdon-expands-us-latam",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 164,
@@ -1987,6 +2113,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.pocketgamer.biz/adjust-appoints-ex-upsight-exec-shawn-bonham-to-head-up-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 188,
@@ -2001,6 +2128,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://afkgaming.com/mobileesports/news/mpl-brazil-expands-to-include-latam-region",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 343,
@@ -2014,6 +2142,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.ainonline.com/aviation-news/air-transport/2020-02-09/cae-highlights-expanded-apac-training-singapore",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 152,
@@ -2028,11 +2157,13 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.just-drinks.com/news/pepsico-sustainability-accelerator-expands-to-apac/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 370,
     title: "Lockton Re continues LatAm treaty expansion with Aon’s Ibacache",
     text: "As a premium subscriber, you can gift this article for free\n\nCopy gift link\n\nhttps://www.demo.com/demo-article/ Link copied to clipboard\n\nYou have reached the limit for gifting for this month\n\nThere was an error processing the request. Please try again later.",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
     img: "https://assets.euromoneydigital.com/dims4/default/3151f87/2147483647/strip/true/crop/700x368+0+21/resize/1200x630!/quality/90/?url=http%3A%2F%2Feuromoney-brightspot.s3.amazonaws.com%2F64%2Fb4%2F630819ed4f99a5c23cde8f95ce56%2Flockton-logo-miami.jpg",
     date: "2023-03-30",
     author: "Jairo Ibarra",
@@ -2042,6 +2173,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.insuranceinsiderus.com/article/2bgxgctazkuplqcrl35kw/brokers/lockton-re-continues-latam-treaty-expansion-with-aons-ibacache",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 12,
@@ -2055,6 +2187,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://latinlawyer.com/article/white-case-expands-latam-group-in-mexico-and-new-york",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 25,
@@ -2068,6 +2201,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://latinlawyer.com/article/us-kidney-healthcare-group-davita-expands-in-latam",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 28,
@@ -2081,6 +2215,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://latinlawyer.com/article/us-energy-investor-enters-latam-offshore-market-brazil-buy",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 335,
@@ -2095,6 +2230,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.prnewswire.com/apac/news-releases/integral-ad-science-ias-accelerates-apac-expansion-with-multiple-market-launches-and-senior-appointments-302037626.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 181,
@@ -2110,6 +2246,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.infrastructureinvestor.com/the-pipeline-patrizias-apac-fund-stonepeaks-healthcare-expansion-partners-groups-carbon-capture-bite/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 297,
@@ -2124,6 +2261,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://itbrief.asia/story/elastic-strengthens-apac-leadership-team-to-accelerate-market-expansion",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 217,
@@ -2138,6 +2276,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://avitrader.com/2023/10/03/latam-expands-airbus-aircraft-order-to-add-13-additional-a321neos/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 101,
@@ -2153,6 +2292,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://w.media/snowflake-continues-apac-expansion-through-globe-telecom-collaboration/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 299,
@@ -2168,6 +2308,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://w.media/edgnex-data-centres-expands-apac-footprint-with-new-bangkok-facility/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 208,
@@ -2182,6 +2323,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.prnewswire.com/news-releases/havas-health--you-announces-expansion-across-apac-including-southeast-asia-sea-village-301487799.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 360,
@@ -2208,6 +2350,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.just-style.com/news/gap-inc-expands-latam-sourcing-as-supply-disruption-weighs/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 69,
@@ -2222,6 +2365,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.nutraingredients-asia.com/Article/2020/05/14/Spring-in-its-step-New-Zealand-sheep-milk-firm-reveals-APAC-expansion-plans-for-infant-and-toddler-formula",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 71,
@@ -2236,6 +2380,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.nutraingredients-asia.com/Article/2020/05/18/Rich-pickings-Swiss-caviar-supplement-set-for-APAC-expansion-after-success-in-Philippines-and-Thailand",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 22,
@@ -2250,6 +2395,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://futurecio.tech/vantage-data-centers-expands-apac-headquarters-in-sg/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 151,
@@ -2264,6 +2410,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://futurecio.tech/pepsico-expands-greenhouse-accelerator-program-to-apac/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 351,
@@ -2277,6 +2424,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.campaignlive.co.uk/article/boyle-expands-ceo-role-publicis-media-unites-emea-apac/1462362?utm_source=website&utm_medium=social",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 130,
@@ -2292,6 +2440,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://fxnewsgroup.com/forex-news/retail-forex/rostro-completes-scope-markets-acquisition-eyes-mena-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 159,
@@ -2305,6 +2454,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://datacenternews.asia/story/ovhcloud-expands-in-apac-with-the-first-data-centre-in-india",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 347,
@@ -2320,6 +2470,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.bandt.com.au/bud-communications-expands-apac-footprint-with-australian-office-launch/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 272,
@@ -2334,6 +2485,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://thefintechtimes.com/thailand-becomes-7th-country-stripe-expands-to-in-apac/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 408,
@@ -2349,6 +2501,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://thefintechtimes.com/revolut-expands-into-latam-on-mission-to-increase-financial-inclusion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 43,
@@ -2363,6 +2516,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.financemagnates.com/thought-leadership/transak-expands-into-hong-kong-to-support-development-growth-in-apac/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 53,
@@ -2377,6 +2531,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://tech.eu/2023/10/04/ukraines-trinetix-plans-latam-expansion-after-10m-investment/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 105,
@@ -2392,6 +2547,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://fintechnews.sg/74819/digital-banking-news-singapore/aspire-achieves-profitability-eyes-broader-apac-and-team-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 348,
@@ -2407,6 +2563,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://fintechnews.sg/51498/fintech/broadridge-enhances-apac-leadership-bench-with-new-hire-for-regional-expansion-plans/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 236,
@@ -2422,6 +2579,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://financefeeds.com/isam-securities-apac-expansion-through-primexm-partnership-and-singapore-xcore-integration/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 21,
@@ -2435,6 +2593,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.financemagnates.com/thought-leadership/vantage-fx-embarks-on-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 304,
@@ -2448,6 +2607,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://ww.fashionnetwork.com/news/dufry-expands-in-apac-with-perth-airport-store,1000861.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 187,
@@ -2462,6 +2622,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.exchangewire.com/blog/2023/05/16/multilocal-expands-operations-appoints-new-gm-sales-director-in-apac/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 359,
@@ -2477,6 +2638,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.sportcal.com/media/bein-expands-bundesliga-relationship-through-three-season-apac-deal/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 268,
@@ -2491,6 +2653,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://emerging-europe.com/partner-content/gr8-tech-at-ice-london-new-clients-latam-expansion-and-more/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 14,
@@ -2505,6 +2668,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://insightcrime.org/news/brief/colombia-expands-extradition-deals-with-latam-countries-europe/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 305,
@@ -2519,6 +2683,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.newsfilecorp.com/release/183376/OBA-PR-Delivers-Remarkable-Q3-Results-with-Strategic-APAC-Expansion",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 176,
@@ -2533,6 +2698,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.zdnet.com/article/netsuite-pitches-automation-eyes-high-growth-markets-in-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 225,
@@ -2546,6 +2712,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://contxto.com/en/news/zuru-latam-goes-for-expansion-in-mexico-and-creates-advisory-board/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 133,
@@ -2560,6 +2727,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.finextra.com/newsarticle/42774/revolut-prioritises-financial-inclusion-in-expansion-into-latam",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 31,
@@ -2574,6 +2742,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.retailbankerinternational.com/comment/starling-bank-expands-its-baas-platform-to-apac/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 129,
@@ -2589,6 +2758,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://travelbizmonitor.com/rajiv-bhatia-joins-sabre-as-executive-director-apac-market-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 161,
@@ -2602,6 +2772,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.hcamag.com/asia/specialisation/recruitment/global-hiring-in-apac-expands-by-57/474842",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 216,
@@ -2617,6 +2788,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://aviacionaldia.com/en/2024/05/latam-airlines-expands-frequency-of-its-international-flights-from-brazil.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 104,
@@ -2632,6 +2804,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.insurancejournal.com/news/international/2024/05/24/775746.htm",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 387,
@@ -2646,6 +2819,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://aviationweek.com/air-transport/airports-networks/aeromexico-increases-mexico-brazil-connectivity-expands-latam",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 233,
@@ -2659,6 +2833,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://m.economictimes.com/industry/cons-products/electronics/lava-enters-latam-mkt-with-panama-based-b-mobile-buyout/articleshow/87468785.cms",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 166,
@@ -2672,6 +2847,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://citywire.com/americas/news/old-mutual-latam-chief-targets-market-expansion-under-new-owners/a1136862",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 340,
@@ -2686,6 +2862,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://airinsight.com/latam-expands-cargo-fleet-to-21-aircraft/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 91,
@@ -2699,6 +2876,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://citywire.com/americas/news/stonex-plans-aggressive-expansion-of-latam-wealth-unit-in-miami/a2417596",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 238,
@@ -2712,6 +2890,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://citywire.com/americas/news/3bn-brainvest-hires-ex-julius-baer-exec-to-lead-latam-expansion/a2395651",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 200,
@@ -2727,6 +2906,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://tech.eu/2021/06/22/we-had-to-look-for-opportunities-elsewhere-cabify-founder-on-latam-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 78,
@@ -2741,6 +2921,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.energynewsbulletin.net/energy-transition/news/4266607/cross-border-ccs-advancing-apac-value-chain-expands",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 3,
@@ -2756,6 +2937,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://sme.asia/zimmer-biomet-expands-global-presence-with-new-apac-global-business-services-center-in-malaysia/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 362,
@@ -2771,6 +2953,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.crn.in/news/avaya-readynow-private-cloud-expands-data-centers-to-emea-and-apac-regions/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 392,
@@ -2786,6 +2969,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.consultancy.com.au/news/3399/tech-consultancy-mtx-picks-adelaide-as-first-step-in-apac-expansion",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 207,
@@ -2801,6 +2985,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.consultancy.asia/news/1705/process-automation-provider-expands-apac-presence-with-ibiz-consulting",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 73,
@@ -2815,6 +3000,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://coingape.com/web-stories/gemini-expands-to-india/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 346,
@@ -2829,6 +3015,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.globenewswire.com/news-release/2023/11/20/2783290/0/en/Cloud-ID-Expands-APAC-Presence-with-ABS-CBN-s-The-Filipino-Channel.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 174,
@@ -2844,6 +3031,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.clariant.com/en/Corporate/News/2019/11/Clariant-Catalysts-expands-in-APAC-with-new-Engineering-Services-office-in-Indonesia",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 89,
@@ -2858,6 +3046,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://thefintechtimes.com/seba-bank-opens-hong-kong-office-in-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 423,
@@ -2873,6 +3062,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.channelweb.co.uk/news/4191078/exclusive-networks-sets-expansion-plans-apac-acquisition",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 162,
@@ -2888,6 +3078,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://techcrunch.com/2022/12/20/kredito-6m-business-lending/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 318,
@@ -2902,6 +3093,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://techcrunch.com/2022/07/08/deuna-latin-americas-one-click-checkout-series-a/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 405,
@@ -2916,6 +3108,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://news.crunchbase.com/fintech-ecommerce/new-90m-series-d-fuels-nuvemshops-latam-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 179,
@@ -2931,6 +3124,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.perenews.com/former-ara-coo-joins-digital-real-estate-platform-to-lead-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 180,
@@ -2945,6 +3139,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.perenews.com/barings-expands-apac-real-estate-debt-business/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 330,
@@ -2959,6 +3154,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.traveldailymedia.com/doubletree-by-hilton-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 183,
@@ -2973,6 +3169,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.agriinvestor.com/cooke-enters-latam-shrimp-with-seajoy-acquisition/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 30,
@@ -2987,6 +3184,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.nutraingredients-asia.com/Article/2018/11/21/Canadian-vitamin-maker-Jamieson-furthers-APAC-expansion-with-Indian-pharmacy-partnership",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 41,
@@ -3001,6 +3199,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.nutraingredients-asia.com/Article/2018/09/12/ChromaDex-continues-APAC-expansion-with-launch-of-nicotinamide-riboside-product-in-third-country",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 267,
@@ -3015,6 +3214,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.nutraingredients-asia.com/Article/2018/06/26/OmniActive-s-APAC-expansion-plans-buoyed-by-latest-botanical-GMP-registration",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 294,
@@ -3029,6 +3229,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.thedrum.com/news/2016/04/19/expedia-eyes-apac-expansion-corporate-business-egencia-singapore-launch",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 102,
@@ -3043,6 +3244,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.ceoinsightsasia.com/news/smart-ims-inc-expands-apac-presence-with-acquisition-of-itcs-group-nwid-11556.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 368,
@@ -3056,6 +3258,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.financemagnates.com/forex/brokers/admiral-markets-continues-apac-expansion-adds-japanese-stocks/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 16,
@@ -3070,6 +3273,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://securitybrief.co.nz/story/westcon-comstor-expands-cybersecurity-partnership-with-broadcom-in-apac",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 379,
@@ -3084,6 +3288,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://datacenternews.asia/story/appomni-expands-to-sydney-with-new-data-centre-amid-rising-apac-demand",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 182,
@@ -3098,6 +3303,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.privateequityinternational.com/keensight-opens-singapore-office-amid-apac-portfolio-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 203,
@@ -3113,6 +3319,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.connectedtoindia.com/livspace-launches-in-singapore-marking-first-phase-of-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 173,
@@ -3126,6 +3333,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://finance.yahoo.com/news/golub-capital-apac-expansion-continues-220000432.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 150,
@@ -3141,6 +3349,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.business-standard.com/article/companies/performance-management-startup-mesh-raises-11-mn-for-us-apac-expansion-122041300505_1.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 232,
@@ -3156,6 +3365,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.business-standard.com/companies/news/ltimindtree-expands-presence-in-latam-opens-delivery-centre-in-new-mexico-123121500257_1.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 231,
@@ -3168,6 +3378,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.bnamericas.com/en/news/italys-prysmian-expands-brazil-factory-opens-latam-hq",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 95,
@@ -3183,6 +3394,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.brandinginasia.com/landor-fitch-expands-apac-senior-leadership-in-brand-led-experience-creative-business-development/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 226,
@@ -3198,6 +3410,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.streamtvinsider.com/advertising/disney-expands-ad-tech-integrates-mercado-dsp-ahead-disney-latam-launch",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 247,
@@ -3213,6 +3426,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.reinsurancene.ws/ms-reinsurance-eyes-strategic-expansion-in-latam-cuo-americas-segonzac/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 26,
@@ -3227,6 +3441,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.mingtiandi.com/real-estate/data-centres/stack-data-centres-kicks-off-apac-expansion-in-singapore/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 148,
@@ -3241,6 +3456,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.mingtiandi.com/real-estate/data-centres/pgim-enters-apac-data-centres-with-equinix-australia-jv/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 139,
@@ -3255,6 +3471,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.brandinginasia.com/avery-akkineni-vaynermedia-apac/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 37,
@@ -3269,6 +3486,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://contxto.com/en/technology/tul-transforms-b2b-construction-market-with-expansion-to-brazil-and-mexico/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 192,
@@ -3282,6 +3500,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://contxto.com/en/startups/mediquo-projects-expansion-and-doubling-sales-in-latam-by-2024/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 197,
@@ -3296,6 +3515,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://contxto.com/en/technology/luzia-raises-eur-9-5-million-for-expansion-into-latam-artificial-intelligence-market/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 246,
@@ -3310,6 +3530,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://contxto.com/en/startups/oracle-netsuite-celebrates-25-years-with-innovations-in-artificial-intelligence-and-expansion-in-latam/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 210,
@@ -3324,6 +3545,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.aviationbusinessnews.com/cargo/latam-cargo-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 361,
@@ -3338,6 +3560,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.avinteractive.com/territories-news/apac/avi-spls-incorporation-in-japan-to-fuel-apac-expansion-11-12-2023/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 128,
@@ -3351,6 +3574,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://citywire.com/americas/news/safra-closes-private-bank-acquisition-and-expands-latam-footprint/a2427119",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 282,
@@ -3364,6 +3588,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://citywire.com/americas/news/amundi-expands-latam-reach-with-fund-distribution-deal/a2421860",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 353,
@@ -3377,6 +3602,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://citywire.com/americas/news/blackrock-expands-role-of-latam-alts-platform-chief/a2417234",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 398,
@@ -3391,6 +3617,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://asianaviation.com/aar-expands-electronics-distribution-for-apac/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 178,
@@ -3404,6 +3631,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.thefastmode.com/technology-solutions/35584-neterra-expands-connectivity-services-to-apac",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 396,
@@ -3418,6 +3646,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.thefastmode.com/technology-solutions/34505-accenture-expands-generative-ai-studios-in-9-countries-across-apac-and-latam",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 397,
@@ -3432,6 +3661,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.thefastmode.com/technology-solutions/34505-accenture-expands-generative-ai-studios-in-9-countries-across-apac-and-latam",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 52,
@@ -3446,6 +3676,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://iupana.com/2021/07/09/nuvemshop-plans-latam-expansion/?lang=en",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 352,
@@ -3461,6 +3692,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.thetradenews.com/bmll-launches-india-trading-data-offering-as-part-of-continued-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 175,
@@ -3476,6 +3708,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://theprint.in/ani-press-releases/financial-times-three-peat-fuels-monetizemores-apac-expansion-india-leads-the-charge/2035039/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 306,
@@ -3491,6 +3724,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://theprint.in/ani-press-releases/uae-founded-damac-properties-announces-aggressive-apac-expansion-plan-with-latest-office-openings-in-singapore-and-beijing/2073280/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 301,
@@ -3505,6 +3739,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.benjamindada.com/ebanx-expands-africa/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 302,
@@ -3519,6 +3754,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.benjamindada.com/ebanx-eight-african-countries/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 44,
@@ -3533,6 +3769,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.thefastmode.com/technology-solutions/34087-totogi-enters-apac-market-offers-charging-as-a-service-platform-on-aws-singapore",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 138,
@@ -3548,6 +3785,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.aviation24.be/airlines/qatar-airways/qatar-airways-expands-south-america-connectivity-through-codeshare-with-latam-brasil/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 9,
@@ -3563,6 +3801,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.anbmedia.com/news/2022/12/wildbrain-expands-content-distribution-team-in-apac-to-drive-continued-growth/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 40,
@@ -3577,6 +3816,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://cryptobriefing.com/trust-wallet-expands-in-latam-with-alchemy-pay-and-banxa/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 382,
@@ -3591,6 +3831,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://afkgaming.com/dota2/news/alliance-expands-to-south-america-as-it-announces-new-latam-team",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 395,
@@ -3606,6 +3847,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://worldbusinessoutlook.com/the-access-group-accelerates-its-apac-expansion-by-partnership-with-mdec/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 77,
@@ -3620,6 +3862,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.cosmeticsdesign-asia.com/Article/2022/07/11/caudalie-prioritising-apac-expansion-plans-in-india-and-vietnam",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 244,
@@ -3634,6 +3877,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.cosmeticsdesign-asia.com/Article/2019/04/22/Popularity-of-J-beauty-products-fuelling-cosme-expansion-in-APAC-market",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 58,
@@ -3649,6 +3893,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://glginsights.com/news/glg-celebrates-opening-of-malaysia-office-as-it-accelerates-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 209,
@@ -3664,6 +3909,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://theloadstar.com/unexpected-rise-in-demand-sees-latam-plan-huge-expansion-of-freighter-fleet/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 287,
@@ -3678,6 +3924,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://fintechmagazine.com/articles/airwallex-expands-to-latam-with-deal-for-mexican-psp-mexpago",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 46,
@@ -3693,6 +3940,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.hypebot.com/hypebot/2022/07/farolatino-opens-new-offices-in-u-s-mexico-and-spain.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 137,
@@ -3708,6 +3956,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.bandt.com.au/quantcast-expands-apac-sales-team-with-appointment-of-news-corp-account-manager/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 426,
@@ -3722,6 +3971,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.offshorewind.biz/2021/10/18/vestas-to-consolidate-its-apac-businesses-as-next-step-in-offshore-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 109,
@@ -3737,6 +3987,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.adobomagazine.com/people/people-havas-health-you-announces-expansion-across-apac-including-southeast-asia-sea-village/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 112,
@@ -3751,6 +4002,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.adobomagazine.com/people/people-matterkind-expands-apac-regional-leadership-team/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 357,
@@ -3765,6 +4017,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.adobomagazine.com/global-news/cnn-international-expands-in-apac-opens-new-office-in-beijing/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 280,
@@ -3778,6 +4031,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.financemagnates.com/forex/brokers/fxprimus-expands-to-latam-new-office-in-peru/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 32,
@@ -3792,6 +4046,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.eventindustrynews.com/news/uk-and-europe/uk-events-and-engagement-agency-live-group-expands-into-apac-with-singapore-office-opening",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 201,
@@ -3806,6 +4061,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://finance.yahoo.com/news/axion-trade-continues-expansion-apac-131500416.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 390,
@@ -3821,6 +4077,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://zycrypto.com/ripples-asian-expansion-skyrockets-singapore-becomes-apac-frontrunner-for-on-demand-liquidity-service/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 289,
@@ -3834,6 +4091,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://nearshoreamericas.com/tecnotree-center-argentina-software-cordoba/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 147,
@@ -3848,6 +4106,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://therecursive.com/pluria-s-expansion-to-latam-the-world-is-a-blank-canvas-open-for-business/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 1,
@@ -3860,6 +4119,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.prnasia.com/releases/apac/DKSH_Partners_with_aCommerce_to_Accelerate_E_Commerce_Expansion-138362.shtml",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 4,
@@ -3874,6 +4134,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.asiapacificsecuritymagazine.com/yubico-expands-yubienterprise-subscription-services-simplifying-yubikey-procurement-for-enterprises-across-apac/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 5,
@@ -3888,6 +4149,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.ginx.tv/en/rocket-league/freestyle-group-pulse-clan-enters-rlcs-by-acquiring-top-apac-team",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 6,
@@ -3901,6 +4163,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://apacrealestate.com/japans-nomura-real-estate-drives-asian-expansion-with-vietnam-deal/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 8,
@@ -3913,6 +4176,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.travelmarketreport.com/articles/Journeysmiths-Expands-LATAM-Offerings",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 13,
@@ -3925,6 +4189,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.canalys.com/insights/Wasabi-Technologies-new-expansion-targets-APAC-growth",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 17,
@@ -3939,6 +4204,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.thenational-somaliland.com/amazon-web-services-expands-in-taiwan-impact-on-the-apac-digital-landscape/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 19,
@@ -3952,6 +4218,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.prnewswire.com/news-releases/38-of-footwear-market-to-originate-from-apac-market-expands-with-rising-demand-for-exclusive-designer-collections-301586926.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 27,
@@ -3965,6 +4232,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.rli.uk.com/apac-reach-expanded-by-foot-locker/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 34,
@@ -3978,6 +4246,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.finews.asia/people/36138-cbre-expands-apac-capital-markets-unit",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 35,
@@ -3992,6 +4261,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.marketing-interactive.com/eggslut-enters-hk-as-part-of-apac-expansion",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 36,
@@ -4006,6 +4276,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.marketing-interactive.com/eggslut-enters-hk-as-part-of-apac-expansion",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 45,
@@ -4019,6 +4290,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.prnasia.com/releases/apac/dalton-announces-major-expansion-in-commercial-sterile-manufacturing-capacity-393354.shtml",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 48,
@@ -4032,6 +4304,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.biospectrumasia.com/news/28/21781/amcor-expands-healthcare-platform-in-apac-with-acquisition-of-china-based-mdk.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 49,
@@ -4044,6 +4317,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.prnasia.com/releases/apac/caf-amazon-ramps-up-for-regional-and-global-expansion-334711.shtml",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 50,
@@ -4056,6 +4330,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.prnasia.com/releases/apac/tiens-group-launches-global-expansion-into-new-retail-228826.shtml",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 51,
@@ -4068,6 +4343,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.campaignasia.com/article/qa-peter-finn-on-finn-partners-expansion-into-apac/437428",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 54,
@@ -4081,6 +4357,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://3.208.197.179/en/redge-media-expands-in-latam-with-lotier/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 55,
@@ -4093,6 +4370,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.biospectrumasia.com/news/51/13185/west-pharma-expands-apac-biz-with-new-korean-office-.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 61,
@@ -4105,6 +4383,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.intelligentinsurer.com/insurance/patria-re-more-international-expansion-from-strong-latam-base-30360",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 63,
@@ -4118,6 +4397,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.marketing-interactive.com/nba-opens-singapore-office",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 64,
@@ -4130,6 +4410,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.autocarpro.in/news-national/royal-enfield-eyes-growing-demand-in-apac-enters-south-korea-42775",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 66,
@@ -4144,6 +4425,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.marketing-interactive.com/lego-launches-search-for-apac-ecommerce-director",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 67,
@@ -4157,6 +4439,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.seatrade-maritime.com/supply-chain-and-logistics/emergent-cold-latam-enters-uruguay-market",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 70,
@@ -4169,6 +4452,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.gamesbras.com/english-version/2023/11/9/stake-expands-in-latam-with-betfair-colombia-acquisition-40875.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 72,
@@ -4182,6 +4466,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.finews.asia/finance/32241-digital-banking-platform-provider-expands-apac-presence-backbase-jouk-pleiter",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 74,
@@ -4195,6 +4480,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.intelligentcio.com/latam/2023/08/02/embratel-announces-expansion-of-cloud-offerings/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 75,
@@ -4209,6 +4495,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://focusgn.com/pragmatic-play-expands-in-latam-following-new-content-deal-with-ganaplay",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 79,
@@ -4222,6 +4509,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.businessamlive.com/american-law-firm-appoints-two-em-experts-to-expands-africa-latam-reach/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 80,
@@ -4234,6 +4522,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.gamesbras.com/english-version/2024/3/13/pragmatic-play-expands-latam-reach-with-betsala-deal-43424.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 81,
@@ -4246,6 +4535,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.prnasia.com/releases/apac/fly540-partners-with-aerocrs-to-boost-international-expansion-plan-368926.shtml",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 82,
@@ -4259,6 +4549,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://valo2asia.com/willyks-enters-free-agency-open-to-apac-offers/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 85,
@@ -4272,6 +4563,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.prnasia.com/releases/apac/language-ai-company-fano-labs-fuels-apac-expansion-with-its-series-b-funding-round-led-by-openspace-ventures-with-participation-from-hsbc-and-greater-good-investment-445673.shtml",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 86,
@@ -4286,6 +4578,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.symrise.com/newsroom/article/?tx_news_pi1%5Bnews%5D=24827&cHash=5d3eede0816e501055c1e0e7e52498bb",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 87,
@@ -4299,6 +4592,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.prnewswire.com/news-releases/franconnect-expands-global-presence-launching-in-australia--apac-and-appointment-of-general-manager-anz-301834939.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 88,
@@ -4311,6 +4605,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.intelligentinsurer.com/swiss-re-expands-life-insurance-workbench-to-apac-and-emea",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 90,
@@ -4323,6 +4618,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.prnasia.com/releases/apac/scivita-medical-expands-collaboration-with-boston-scientific-441093.shtml",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 92,
@@ -4336,6 +4632,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.prnasia.com/releases/apac/enterprise-expands-across-apac-emea-and-lac-as-part-of-company-s-continued-investment-in-global-network-317415.shtml",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 98,
@@ -4348,6 +4645,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.prnewswire.com/in/news-releases/experlogix-expands-support-for-apac-clients-301762857.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 106,
@@ -4361,6 +4659,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://markets.businessinsider.com/news/stocks/bridge-data-centres-expands-apac-footprint-with-acquisition-of-data-centres-in-malaysia-1023937483",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 107,
@@ -4374,6 +4673,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.prnasia.com/releases/apac/cyclone-robotics-announces-apac-partner-program-to-support-global-expansion-strategy-361492.shtml",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 108,
@@ -4387,6 +4687,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.phocuswire.com/apac-micromobility-startup-beam-raises-93m",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 111,
@@ -4400,6 +4701,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.straitstimes.com/business/property/apac-realty-expands-era-franchise-to-queensland",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 114,
@@ -4413,6 +4715,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.mediaweek.com.au/similarweb-expands-apac-presence-with-new-office-in-australia/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 115,
@@ -4427,6 +4730,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.asiaone.com/business/uae-founded-damac-properties-announces-aggressive-apac-expansion-plan-latest-office",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 117,
@@ -4440,6 +4744,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://stories.hilton.com/apac/releases/hilton-expands-network-effect-in-china-with-signings-across-multiple-brand-categories",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 118,
@@ -4453,6 +4758,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.biospectrumasia.com/news/51/24195/avance-clinical-expands-further-into-apac-with-new-clinical-operations-in-south-korea.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 120,
@@ -4466,6 +4772,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://ciosea.economictimes.indiatimes.com/news/security/cybersecurity-firm-esentire-expands-into-apac/90366778",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 122,
@@ -4479,6 +4786,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://ciosea.economictimes.indiatimes.com/news/security/aqua-security-opens-office-in-singapore-to-continue-apac-expansion/98489276",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 126,
@@ -4491,6 +4799,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.prnasia.com/releases/apac/miniso-s-rapid-development-and-expansion-in-brazil-253695.shtml",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 127,
@@ -4503,6 +4812,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.prnewswire.com/apac/news-releases/verkada-accelerates-expansion-in-apac-with-new-singapore-office-302079149.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 131,
@@ -4515,6 +4825,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://drinksint.com/news/fullstory.php/aid/9477/Rhum_Barbancourt_enters_new_distribution_deal_for_LATAM_and_US.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 141,
@@ -4528,6 +4839,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.intelligentcio.com/apac/2023/01/10/mapa-backs-blue-yonder-to-drive-international-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 142,
@@ -4541,6 +4853,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.intelligentcio.com/latam/2023/01/11/amazon-river-basin-project-enters-new-phase/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 143,
@@ -4555,6 +4868,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.aninews.in/news/business/uae-founded-damac-properties-announces-aggressive-apac-expansion-plan-with-latest-office-openings-in-singapore-and-beijing20240507101546",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 145,
@@ -4568,6 +4882,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.newswire.com/news/smart-ims-inc-expands-apac-presence-through-itcs-group-acquisition-22242559",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 146,
@@ -4581,6 +4896,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.newswire.com/news/acadia-leadership-partners-expands-to-latam-with-new-managing-partner-21859224",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 149,
@@ -4594,6 +4910,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.marketing-interactive.com/np-digital-acquires-searchguru",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 155,
@@ -4608,6 +4925,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.businesstoday.in/entrepreneurship/news/story/b2b-fintech-startup-paymate-accelerates-expansion-in-cemea-and-apac-385040-2023-06-09",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 156,
@@ -4620,6 +4938,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://ibsintelligence.com/ibsi-news/paymate-accelerates-expansion-across-cemea-and-apac/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 157,
@@ -4632,6 +4951,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://ibsintelligence.com/ibsi-news/payabl-expands-latam-coverage-with-major-payment-methods/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 160,
@@ -4645,6 +4965,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://microbiozindia.com/transcure-bioservices-expands-reach-into-apac-with-preclina-inc-partnership/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 163,
@@ -4658,6 +4979,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.oppo.com/en/newsroom/press/OPPO-establishes-APAC-Hub-Center-in-Malaysia-to-support-further-regional-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 165,
@@ -4671,6 +4993,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.prnasia.com/releases/global/casetify-announces-nationwide-retail-expansion-with-select-verizon-locations-421195.shtml",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 168,
@@ -4685,6 +5008,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.isa-guide.de/english-news/articles/281307.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 170,
@@ -4697,6 +5021,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.channele2e.com/news/nowvertical-acquires-a10group-latam-expansion",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 172,
@@ -4710,6 +5035,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.finews.asia/people/39686-muzinich-co-expands-apac-institutional-sales-team",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 186,
@@ -4723,6 +5049,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.finews.asia/people/34301-natixis-expands-global-markets-unit-in-apac",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 189,
@@ -4737,6 +5064,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.asiaone.com/business/moonbug-entertainment-continues-apac-expansion-launch-moonbug-channel-singapore",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 191,
@@ -4750,6 +5078,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.globalfleet.com/fr/leasing-and-rental/latin-america/interviews/carmen-davila-ariza-latam-expansion-plan-includes-argentina",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 195,
@@ -4762,6 +5091,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.licenseglobal.com/food-beverages/marley-coffee-expands-latam",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 196,
@@ -4775,6 +5105,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.prnasia.com/releases/apac/coco-fresh-tea-juice-announces-expansion-through-out-apac-region-amidst-bubbling-growth-380280.shtml",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 199,
@@ -4787,6 +5118,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.gamesbras.com/english-version/2023/12/12/bgaming-expands-further-in-brazil-and-latam-with-betmotion-41502.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 202,
@@ -4800,6 +5132,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://karryon.com.au/community/movers-and-shakers/tag-apex-travel-group/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 206,
@@ -4812,6 +5145,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.prnasia.com/releases/apac/Young_Living_Essential_Oils_Expands_Executive_Team-157964.shtml",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 212,
@@ -4824,6 +5158,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://ibsintelligence.com/ibsi-news/latam-fintech-prometeo-expands-footprint-to-the-us-market/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 214,
@@ -4837,6 +5172,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.mercopress.com/2020/07/13/latam-brazil-joins-other-parts-of-the-group-and-enters-chapter-11-protection",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 219,
@@ -4850,6 +5186,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://businesstravelerusa.com/news/latam-airlines-enters-the-race-to-acquire-viva-air-colombia/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 221,
@@ -4862,6 +5199,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "http://www.labelsandlabeling.com/news/industry-trends/label-traxx-expands-presence-latam",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 223,
@@ -4874,6 +5212,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.prnasia.com/releases/apac/qmed-asia-eyes-apac-expansion-with-digital-health-solutions-384005.shtml",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 224,
@@ -4887,6 +5226,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.prnasia.com/releases/apac/oneplus-apac-expansion-continues-with-the-introduction-of-the-new-flagship-oneplus-11-5g-and-oneplus-buds-pro-2-in-malaysia-393001.shtml",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 229,
@@ -4899,6 +5239,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.crn.com.au/news/arcsight-opens-australian-office-in-apac-expansion-141535",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 234,
@@ -4912,6 +5253,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://retailasia.com/stores/news/lovevery-launches-in-singapore-part-apac-expansion",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 235,
@@ -4924,6 +5266,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.crn.com.au/news/israeli-security-company-pentera-expands-to-apac-586775",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 239,
@@ -4936,6 +5279,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://igamingbusiness.com/company-news/evenbet-gaming-expands-presence-in-latam-with-betplay-launch/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 240,
@@ -4950,6 +5294,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.medianews4u.com/integral-ad-science-ias-expands-operations-in-apac-with-senior-appointments/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 241,
@@ -4962,6 +5307,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.telummedia.com/public/news/hotwire-expands-apac-presence/wkv5yroe1n",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 249,
@@ -4974,6 +5320,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://igamingbusiness.com/company-news/3-oaks-gaming-expands-latam-footprint-with-betplau-agreement/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 250,
@@ -5019,6 +5366,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.crn.com.au/news/flexera-590722",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 254,
@@ -5032,6 +5380,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.howdengroupholdings.com/news/2021/pr-21-05-05",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 256,
@@ -5044,6 +5393,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.cambridgenetwork.co.uk/news/cmr-surgical-expands-latam-versius-launches-underway",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 261,
@@ -5057,6 +5407,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.prnasia.com/releases/apac/hamad-international-airport-officially-unveils-impressive-expansion-project-383093.shtml",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 262,
@@ -5071,6 +5422,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.cryptoninjas.net/2019/01/29/hedera-hashgraph-accelerates-apac-expansion-with-new-leadership-appointments/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 263,
@@ -5083,6 +5435,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.crn.com.au/news/yubico-expands-apac-sales-team-600910",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 264,
@@ -5095,6 +5448,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://apacnewsnetwork.com/2022/08/apollo-hospitals-enters-haryana-with-a-new-acquisition/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 265,
@@ -5108,6 +5462,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://asianbusinessreview.com/news/5g-service-expansion-drive-apac-mobile-services-market",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 273,
@@ -5121,6 +5476,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.pymnts.com/news/acquiring/2022/jpmorgan-expands-merchant-services-offering-asia-pacific/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 275,
@@ -5133,6 +5489,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.prnasia.com/releases/apac/amorepacific-boosts-business-expansion-in-the-philippines-232484.shtml",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 276,
@@ -5147,6 +5504,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://news.satnews.com/2023/02/05/gilat-receives-a-multi-million-contract-for-apac-trains-satcom-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 277,
@@ -5161,6 +5519,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.autodesk.com/blogs/construction/autodesk-expands-buildingconnected-global/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 279,
@@ -5174,6 +5533,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.theinsurer.com/news/gallagher-continues-apac-expansion-with-taiwan-launch/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 288,
@@ -5187,6 +5547,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.intelligentcio.com/apac/2022/03/23/wlth-supports-company-expansion-roadmap-with-boomi/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 290,
@@ -5200,6 +5561,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://celluloidjunkie.com/wire/gofilex-apac-expansion-launching-in-australia-and-new-zealand-17th-may/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 296,
@@ -5212,6 +5574,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "http://www.mi-3.com.au/21-03-2024/np-digital-expands-apac-footprint-key-appointments",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 300,
@@ -5225,6 +5588,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.crn.com.au/news/ecommerce-saas-vendor-searchspring-expands-aussie-presence-with-new-apac-lead-559531",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 303,
@@ -5238,6 +5602,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "http://www.mi-3.com.au/17-10-2022/azerion-launches-improve-digital-ssp-after-june-expansion-apac",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 307,
@@ -5251,6 +5616,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.suasnews.com/2024/05/dronetag-expands-apac-footprintenters-japanese-market/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 308,
@@ -5264,6 +5630,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.suasnews.com/2024/05/dronetag-expands-apac-footprintenters-japanese-market/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 310,
@@ -5278,6 +5645,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.avionews.it/item/1172254-latam-airlines-group-expands-at-miami-airport-with-its-first-maintenance-hangar-in-the-us.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 311,
@@ -5290,6 +5658,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://ibsintelligence.com/ibsi-news/dlocal-and-papaya-global-partner-for-latam-emea-apac-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 312,
@@ -5303,6 +5672,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.eventfaqs.com/news/ef-15864/royal-enfield-expands-footprint-in-apac-enters-south-korea",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 313,
@@ -5316,6 +5686,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.xm.com/research/markets/allNews/reuters/indias-balaxi-pharma-up-after-africa-latam-expansion-53867208",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 314,
@@ -5329,6 +5700,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.intelligentcio.com/apac/2024/03/07/digital-realty-expands-ai-powered-energy-efficiency-platform-to-apac/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 315,
@@ -5342,6 +5714,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.pymnts.com/digital-payments/2022/dutch-payments-provider-terrapay-to-expand-into-us-latam/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 317,
@@ -5355,6 +5728,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.marketing-interactive.com/loopme-sets-up-hk-office-as-part-of-apac-expansion",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 320,
@@ -5369,6 +5743,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.marketing-interactive.com/dentsu-prerna-mehrotra-takes-on-expanded-role-as-apac-chief-client-officer",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 321,
@@ -5381,6 +5756,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.campaignasia.com/article/pinterest-expands-partnership-with-liveramp-across-apac-markets/485709",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 323,
@@ -5394,6 +5770,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://saudigazette.com.sa/article/527194",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 324,
@@ -5407,6 +5784,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.crowdstrike.com/press-releases/crowdstrike-expands-operations-in-apac-and-achieves-strong-growth-in-first-half-of-2017/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 326,
@@ -5420,6 +5798,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://en.prnasia.com/releases/apac/keeper-security-expands-global-reach-with-apac-headquarters-in-japan-404052.shtml",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 328,
@@ -5433,6 +5812,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.prnewswire.com/news-releases/intentsify-takes-next-step-to-support-apac-customers-with-formal-expansion-into-the-region-301823863.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 334,
@@ -5446,6 +5826,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.biospectrumasia.com/news/93/24122/thermo-fisher-expands-apac-footprint-with-jakarta-office-and-new-partnerships.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 337,
@@ -5459,6 +5840,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.marketing-interactive.com/chrono-launches-hk-office-as-part-of-expansion",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 338,
@@ -5472,6 +5854,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.prensario.net/WildBrain-expands-content-distribution-team-in-APAC-to-drive-continued-growth-39947.note.aspx",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 341,
@@ -5485,6 +5868,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.openbankingexpo.com/news/nuvei-enters-australia-as-part-of-apac-expansion-plans/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 345,
@@ -5497,6 +5881,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://apacnewsnetwork.com/2021/12/byjus-appoints-rachna-bahadur-to-head-global-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 349,
@@ -5509,6 +5894,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.contractpharma.com/contents/view_breaking-news/2021-04-08/agilex-biolabs-acquires-tetraq-for-apac-expansion-plans/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 354,
@@ -5522,6 +5908,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.intelligentcio.com/apac/2023/07/26/biman-bangladesh-airlines-supercharges-connectivity-ahead-of-ambitious-expansion/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 355,
@@ -5536,6 +5923,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://focusgn.com/pragmatic-play-expands-its-latam-reach-with-the-latest-betara-signing",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 356,
@@ -5549,6 +5937,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.livemint.com/companies/news/livspace-announces-retail-expansion-across-india-and-apac-11631877511923.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 358,
@@ -5561,6 +5950,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.channele2e.com/news/snowplow-acquires-poplin-data-apac",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 363,
@@ -5574,6 +5964,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.autocarpro.in/news-international/lear-set-expanded-apac-regional-hq-technology-complex-shanghai-20963",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 365,
@@ -5587,6 +5978,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://advanced-television.com/2024/01/31/ott-atresplayer-expands-in-latam/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 366,
@@ -5600,6 +5992,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.autocarpro.in/news-international/aston-martin-expands-apac-dealership-south-korea-8275",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 373,
@@ -5612,6 +6005,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.stvincenttimes.com/latam-airlines-expands-services-on-lima-aruba-route/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 375,
@@ -5625,6 +6019,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.intelligentinsurer.com/ardonaghs-mds-accelerates-spain-latam-expansion-with-aig-veteran-hire",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 376,
@@ -5637,6 +6032,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.intelligentinsurer.com/ardonagh-swoops-on-brazilian-broker-for-latam-expansion",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 383,
@@ -5650,6 +6046,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.theinsurer.com/news/ageas-re-plots-latam-and-casualty-expansion-in-2024/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 384,
@@ -5663,6 +6060,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.campaignasia.com/article/pepsi-expands-k-pop-investment-appoints-blackpink-as-apac-brand-ambassador/465852",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 386,
@@ -5676,6 +6074,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.campaignasia.com/article/aeromexico-partners-with-discover-the-world-marketing-to-push-apac-expansion/236690",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 388,
@@ -5689,6 +6088,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://ciosea.economictimes.indiatimes.com/news/data-center/blackline-launches-new-data-centre-continues-apac-expansion/100265062",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 389,
@@ -5702,6 +6102,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://ciosea.economictimes.indiatimes.com/news/security/hornetsecurity-expands-apac-and-emea-growth-through-new-distribution-agreements/95701450",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 391,
@@ -5715,6 +6116,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://todotvnews.com/en/collective-media-expands-into-latam-with-new-regional-director/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 393,
@@ -5728,6 +6130,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.adnews.com.au/news/nexxen-expands-fast-channel-offering-for-advertisers-across-apac",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 394,
@@ -5741,6 +6144,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://worldbusinessoutlook.com/ada-acquires-singpost-unit-in-apac-expansion-drive/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 399,
@@ -5754,6 +6158,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.intelligentinsurer.com/insurance/dubai-based-reinsurance-brokerage-expands-to-us-targeting-latam-caribbean-27957",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 400,
@@ -5766,6 +6171,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.bnamericas.com/en/news/us-software-group-readies-new-stage-of-latam-expansion",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 401,
@@ -5778,6 +6184,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.bnamericas.com/en/interviews/the-markets-driving-latams-energy-storage-expansion",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 402,
@@ -5789,6 +6196,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.bnamericas.com/en/news/ternium-ceo-says-csa-acquisition-to-foster-latam-expansion",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 403,
@@ -5801,6 +6209,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.bnamericas.com/en/news/kio-networks-unveils-latam-datacenter-expansion-plans",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 404,
@@ -5813,6 +6222,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.bnamericas.com/en/news/google-starts-us140mn-expansion-of-latam-data-center",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 406,
@@ -5826,6 +6236,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.yogonet.com/international/noticias/2023/12/06/69955-pragmatic-play-expands-latam-footprint-through-multivertical-deal-with-gaming-platforms",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 407,
@@ -5839,6 +6250,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.yogonet.com/international/noticias/2023/11/14/69645-pragmatic-play-expands-latam-footprint-through-multivertical-content-deal-with-ganaplay",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 409,
@@ -5852,6 +6264,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.yogonet.com/international/news/2022/08/12/63815-gig-expands-latam-partnership-with-boldt-group-to-power-bplay-39s-launch-in-two-new-argentinean-provinces",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 410,
@@ -5865,6 +6278,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.yogonet.com/international/news/2021/10/15/59769-codere-extends-real-madrid-sponsorship-through-2026--targets-latam-expansion",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 412,
@@ -5877,6 +6291,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.ryt9.com/en/prg/267270",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 420,
@@ -5890,6 +6305,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://e27.co/event/navigating-apac-expansion-lessons-from-linkedin-twitch-and-disney/",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 422,
@@ -5902,6 +6318,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://www.prnewswire.com/apac/news-releases/lovevery-continues-apac-expansion-with-singapore-launch-302073129.html",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 425,
@@ -5913,6 +6330,7 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://thepaypers.com/mobile-payments/western-union-expands-to-latam-by-acquiring-te-enviei--1258340",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
   {
     id: 432,
@@ -5924,5 +6342,6 @@ export const data = [
     company: "none",
     lang: "en",
     link: "https://thepaypers.com/payments-general/fintech-fintoc-secures-usd-7m-series-a-for-latam-expansion--1267896",
+    imgTitle: "https://www.svgrepo.com/show/349514/square-cash.svg",
   },
 ];

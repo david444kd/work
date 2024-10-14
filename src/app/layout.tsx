@@ -25,9 +25,9 @@ export default function RootLayout({
           <NextUIProvider className="min-h-full ">
             {/* <PageHeader /> */}
             <SideBar2></SideBar2>
-            <div className="flex justify-end">{children}</div>
+            <div className="flex justify-end ">{children}</div>
             <div className="w-full flex justify-end">
-              <div className="sm:w-[65%] lg:w-[75%]">
+              <div className="sm:w-[65%] lg:w-[75%] ">
                 <PageFooter />
               </div>
             </div>
