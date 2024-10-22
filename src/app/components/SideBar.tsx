@@ -11,6 +11,7 @@ import {
   CardBody,
   CardFooter,
 } from "@nextui-org/react";
+
 import { Icon } from "@iconify/react";
 import { useMediaQuery } from "usehooks-ts";
 
@@ -20,6 +21,7 @@ import { sectionItems } from "./ItemsList/sidebar/sidebar-with-sections/sidebar-
 import { cn } from "./cn";
 
 import Sidebar from "./ItemsList/sidebar/sidebar-with-sections/sidebar";
+import { UserButton } from "@stackframe/stack";
 
 /**
  *  This example requires installing the `usehooks-ts` package:
@@ -78,12 +80,13 @@ export default function SideBar2() {
         </div> */}
         {/* <Spacer y={8} /> */}
         <div className="flex items-center gap-3 px-3">
-          <Avatar
+          {/* <Avatar
             isBordered
             className="flex-none"
             size="sm"
             src="https://i.pravatar.cc/150?u=a04258114e29026708c"
-          />
+          /> */}
+          <UserButton />
           <div
             className={cn("flex max-w-full flex-col", { hidden: isCompact })}
           >

@@ -1,8 +1,8 @@
 "use client";
 import Link from "next/link";
 import { Image } from "@nextui-org/react";
-
 import { Card, CardHeader, CardBody, CardFooter } from "@nextui-org/card";
+
 import {
   Pagination,
   Modal,
@@ -14,7 +14,7 @@ import {
   useDisclosure,
 } from "@nextui-org/react";
 
-import { useState } from "react";
+import { use, useEffect, useState } from "react";
 import { useFilter } from "../FilterContext";
 
 import Header from "./navigation-header-with-brand-colors/header";
