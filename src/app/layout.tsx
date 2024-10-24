@@ -19,7 +19,7 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const user = await stackServerApp.getUser({ or: "redirect" });
+  const user = await stackServerApp.getUser();
   const url = "https://api.stack-auth.com/api/v1/users/me";
 
   return (
@@ -33,7 +33,7 @@ export default async function RootLayout({
           <StackTheme>
             <FilterProvider>
               <NextUIProvider className="min-h-full ">
-                {/* {user ? (
+                {user ? (
                   <>
                     <SideBar2></SideBar2>
                     <div className="flex justify-end ">{children}</div>
@@ -51,16 +51,7 @@ export default async function RootLayout({
                       </div>
                     </Suspense>
                   </>
-                )} */}
-                <>
-                  <SideBar2></SideBar2>
-                  <div className="flex justify-end ">{children}</div>
-                  <div className="w-full flex justify-end">
-                    <div className="sm:w-[65%] lg:w-[75%] ">
-                      <PageFooter />
-                    </div>
-                  </div>
-                </>
+                )}
               </NextUIProvider>
             </FilterProvider>
           </StackTheme>
