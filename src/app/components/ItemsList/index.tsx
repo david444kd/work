@@ -191,6 +191,7 @@ export const ItemsList = ({ data }: { data: any[] }) => {
         >
           <Image
             src="https://insidefmcg.com.au/wp-content/uploads/2021/03/Venchi-London-store.jpg"
+            alt="img"
             className="h-[20vw] min-w-[100%] object-cover"
           />
 

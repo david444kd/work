@@ -26,7 +26,7 @@ export default function CustomCredentialSignIn() {
     <div className="flex flex-col gap-3 justify-center items-center w-[30vw]">
       <h1 className="text-lg">Sign in to your account</h1>
       <p>
-        Don't have an account?{" "}
+        Don&apos;t have an account?{" "}
         <Link className="underline text-default-900" href="/signup">
           Sign up
         </Link>
