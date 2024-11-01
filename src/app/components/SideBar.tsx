@@ -10,6 +10,8 @@ import {
   Card,
   CardBody,
   CardFooter,
+  Image,
+  Link,
 } from "@nextui-org/react";
 
 import { Icon } from "@iconify/react";
@@ -21,7 +23,8 @@ import { sectionItems } from "./ItemsList/sidebar/sidebar-with-sections/sidebar-
 import { cn } from "./cn";
 
 import Sidebar from "./ItemsList/sidebar/sidebar-with-sections/sidebar";
-import { UserButton } from "@stackframe/stack";
+import { useUser, UserButton } from "@stackframe/stack";
+import Telegram from "./icons/telegram";
 
 /**
  *  This example requires installing the `usehooks-ts` package:
@@ -42,6 +45,9 @@ import { UserButton } from "@stackframe/stack";
  * ```
  */
 export default function SideBar2() {
+  let user = useUser();
+  console.log(user?.primaryEmail);
+
   const [isCollapsed, setIsCollapsed] = React.useState(false);
   const isMobile = useMediaQuery("(max-width: 768px)");
 
@@ -86,16 +92,37 @@ export default function SideBar2() {
             size="sm"
             src="https://i.pravatar.cc/150?u=a04258114e29026708c"
           /> */}
-          <UserButton />
+          {/* <UserButton /> */}
+          {/* <div>
+            <p className="text-default-900">{user?.primaryEmail}</p>
+            <Button
+              onClick={() => {
+                user?.signOut();
+              }}
+            >
+              Signout
+            </Button>
+          </div> */}
+
           <div
-            className={cn("flex max-w-full flex-col", { hidden: isCompact })}
+            className={cn("flex flex-col max-w-full  gap-1", {
+              hidden: isCompact,
+            })}
           >
             <p className="truncate text-small font-medium text-default-600">
-              John Doe
+              {user?.primaryEmail}
             </p>
-            <p className="truncate text-tiny text-default-400">
-              Product Designer
-            </p>
+            {/* <Image ref={{user?.profileImageUrl}} /> */}
+
+            <Link
+              className=""
+              onClick={() => {
+                user?.signOut();
+              }}
+            >
+              Signout
+            </Link>
+            {/* <Link href="/account">kjkfj</Link> */}
           </div>
         </div>
         <ScrollShadow className="-mr-6 h-full max-h-full py-6 pr-6">
