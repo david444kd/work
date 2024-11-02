@@ -1,7 +1,7 @@
 import { useId } from "react";
 import { CheckIcon } from "@heroicons/react/20/solid";
 
-import { cn } from "@/utils";
+import { cn } from "../../utils";
 
 import Field from "../user-interface/field";
 import Input from "../user-interface/input";
@@ -15,13 +15,21 @@ interface CheckboxGroupProps {
   error: { message: string } | undefined;
 }
 
-export default function CheckboxGroup({ label, value, onChange, options, direction, error }: CheckboxGroupProps) {
+export default function CheckboxGroup({
+  label,
+  value,
+  onChange,
+  options,
+  direction,
+  error,
+}: CheckboxGroupProps) {
   const id = useId();
   return (
     <Field id={id} label={label} error={error}>
       <div
         className={cn("peer grid grid-cols-1 gap-4", {
-          "grid-cols-[repeat(auto-fit,minmax(theme(spacing.40),1fr))]": direction === "x",
+          "grid-cols-[repeat(auto-fit,minmax(theme(spacing.40),1fr))]":
+            direction === "x",
         })}
       >
         {options.map((option) => (
@@ -42,14 +50,17 @@ export default function CheckboxGroup({ label, value, onChange, options, directi
             className={cn(
               "group flex cursor-pointer items-center gap-2 focus:outline-none",
               { "border-neutral-500": value.includes(option.value) },
-              { "border-red-500": error },
+              { "border-red-500": error }
             )}
           >
             {option.label}
             <CheckIcon
-              className={cn("pointer-events-none ml-auto size-5 fill-white/50", {
-                "fill-white/100": value.includes(option.value),
-              })}
+              className={cn(
+                "pointer-events-none ml-auto size-5 fill-white/50",
+                {
+                  "fill-white/100": value.includes(option.value),
+                }
+              )}
             />
           </Input>
         ))}
