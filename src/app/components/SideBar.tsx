@@ -58,7 +58,7 @@ export default function SideBar2() {
   }, []);
 
   return (
-    <div className="flex h-dvh w-[20%] fixed mt-20">
+    <div id="sidebar" className="flex h-dvh w-[20%] fixed mt-20">
       <div
         className={cn(
           "relative flex h-full w-96 flex-col !border-r-small border-divider p-6 transition-width",
