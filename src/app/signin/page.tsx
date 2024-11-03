@@ -24,8 +24,8 @@ export default function CustomCredentialSignIn() {
 
   return (
     <div className="flex flex-col gap-3 justify-center items-center w-[30vw]">
-      <h1 className="text-lg">Sign in to your account</h1>
-      <p>
+      <h1 className="text-lg text-default-900">Sign in to your account</h1>
+      <p className="text-default-900">
         Don&apos;t have an account?{" "}
         <Link className="underline text-default-900" href="/signup">
           Sign up
@@ -39,19 +39,19 @@ export default function CustomCredentialSignIn() {
           onSubmit();
         }}
       >
-        {error}
-        <p className="text-xs">Email</p>
+        {error ? <p className="text-red-600">{error}</p> : undefined}
+        <p className="text-xs text-default-900">Email</p>
         <input
           type="email"
-          className="p-4 rounded-lg px-6"
+          className="p-4 rounded-lg px-6 text-default-900"
           placeholder="email"
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         />
-        <p className="text-xs">Password</p>
+        <p className="text-xs text-default-900">Password</p>
         <input
           type="password"
-          className="p-4 rounded-lg px-6"
+          className="p-4 rounded-lg px-6 text-default-900"
           placeholder="password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
