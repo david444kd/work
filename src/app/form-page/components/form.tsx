@@ -20,8 +20,9 @@ export default function Form({
   const handleSubmit = useCallback(
     (formData: Variables) => {
       onNext(formData);
+      // console.log(formData);
     },
-    [onNext],
+    [onNext]
   );
 
   return (

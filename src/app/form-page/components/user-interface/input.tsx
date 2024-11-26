@@ -18,7 +18,7 @@ export default function Input<T extends ElementType>({
   return (
     <Component
       className={cn(
-        "block w-full rounded-full border border-neutral-800 bg-neutral-950 px-7 py-4 text-left text-base text-white"
+        "block w-full rounded-2xl border border-neutral-800 bg-neutral-950 px-7 py-4 text-left text-base text-white"
       )}
       {...props}
     >
