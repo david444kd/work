@@ -170,8 +170,8 @@ const FancyButton = ({ children, disabled, onClick }: ButtonProps) => {
 const Steps = ({ step }: { step: number }) => {
   return (
     <div className="flex gap-5">
-      <p className={step === 1 ? "text-blue-500" : ""}>Set up</p>
-      <p className={step === 2 ? "text-blue-500" : ""}>Confirm</p>
+      <p className={step === 1 ? "text-blue-500" : "text-white"}>Set up</p>
+      <p className={step === 2 ? "text-blue-500" : "text-white"}>Confirm</p>
     </div>
   );
 };
