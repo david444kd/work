@@ -37,13 +37,26 @@ export default async function RootLayout({
               <NextUIProvider className="min-h-full ">
                 {user ? (
                   <>
-                    <Suspense fallback={<div>Загрузка...</div>}>
+                    <Suspense
+                      fallback={
+                        <div className="flex absolute left-0 top-0 items-center justify-center h-screen w-screen ">
+                          <div className="flex flex-col items-center">
+                            <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-blue-500"></div>
+                            <p className="mt-4 text-white text-lg">
+                              Loading...
+                            </p>
+                          </div>
+                        </div>
+                      }
+                    >
                       <SideBar2 />
                     </Suspense>
                     <div className="flex justify-end ">{children}</div>
                     <div className="w-full flex justify-end">
                       <div className="sm:w-[65%] lg:w-[75%] ">
-                        <PageFooter />
+                        <Suspense fallback={<Loading />}>
+                          <PageFooter />
+                        </Suspense>
                       </div>
                     </div>
                   </>

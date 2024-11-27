@@ -64,52 +64,7 @@ const components: Components<Parameters> = {
       {render(children)}
     </Form>
   ),
-  formLayout: (
-    { heading, description, fields, button, back, step },
-    render
-  ) => {
-    const [isLoading, setIsLoading] = useState(true); // Начальное состояние загрузки
-    const [delayedStep, setDelayedStep] = useState(step);
-
-    useEffect(() => {
-      // Показываем загрузку при монтировании
-      const initialTimeout = setTimeout(() => {
-        setIsLoading(false); // Скрыть загрузку после инициализации
-      }, 1000);
-
-      return () => clearTimeout(initialTimeout);
-    }, []);
-
-    useEffect(() => {
-      if (step !== delayedStep) {
-        setIsLoading(true); // Показать загрузку перед переключением
-        const timeout = setTimeout(() => {
-          setDelayedStep(step); // Обновить шаг
-          setIsLoading(false); // Скрыть загрузку после переключения
-        }, 1000);
-
-        return () => clearTimeout(timeout);
-      }
-    }, [step, delayedStep]);
-
-    if (isLoading) {
-      return <LoadingScreen />; // Рендер индикатора загрузки
-    }
-
-    return (
-      <FormLayout
-        step={delayedStep}
-        heading={heading}
-        description={description}
-        fields={fields.map((field, index) => (
-          <Fragment key={index}>{render(field)}</Fragment>
-        ))}
-        button={render(button)}
-        back={back ? render(back) : undefined}
-      />
-    );
-  },
-
+  formLayout: FormLayoutComponent, // Используем новый компонент
   next: ({ text }) => <Next>{text}</Next>,
   back: ({ onBack }) => <Back onBack={onBack} />,
   textField: ({ name, label }) => <TextField name={name} label={label} />,
@@ -119,6 +74,60 @@ const components: Components<Parameters> = {
 
 export default components;
 
+function FormLayoutComponent(
+  {
+    heading,
+    description,
+    fields,
+    button,
+    back,
+    step,
+  }: Parameters["formLayout"],
+  render: any
+) {
+  const [isLoading, setIsLoading] = useState(true); // Начальное состояние загрузки
+  const [delayedStep, setDelayedStep] = useState(step);
+
+  useEffect(() => {
+    // Показываем загрузку при монтировании
+    const initialTimeout = setTimeout(() => {
+      setIsLoading(false); // Скрыть загрузку после инициализации
+    }, 1000);
+
+    return () => clearTimeout(initialTimeout);
+  }, []);
+
+  useEffect(() => {
+    if (step !== delayedStep) {
+      setIsLoading(true); // Показать загрузку перед переключением
+      const timeout = setTimeout(() => {
+        setDelayedStep(step); // Обновить шаг
+        setIsLoading(false); // Скрыть загрузку после переключения
+      }, 1000);
+
+      return () => clearTimeout(timeout);
+    }
+  }, [step, delayedStep]);
+
+  if (isLoading) {
+    return <LoadingScreen />; // Рендер индикатора загрузки
+  }
+
+  return (
+    <FormLayout
+      step={delayedStep}
+      heading={heading}
+      description={description}
+      fields={fields.map((field, index) => (
+        <Fragment key={index}>{render(field)}</Fragment>
+      ))}
+      button={render(button)}
+      back={back ? render(back) : undefined}
+    />
+  );
+}
+
+// Компонент для отображения индикатора загрузки
 const LoadingScreen = () => (
   <div className="flex items-center justify-center h-full w-full ">
     <div className="flex flex-col items-center">
