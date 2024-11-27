@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import { Fragment, useEffect, useState } from "react";
 import {
   Components,
   Step,
@@ -67,18 +67,49 @@ const components: Components<Parameters> = {
   formLayout: (
     { heading, description, fields, button, back, step },
     render
-  ) => (
-    <FormLayout
-      step={step}
-      heading={heading}
-      description={description}
-      fields={fields.map((field, index) => (
-        <Fragment key={index}>{render(field)}</Fragment>
-      ))}
-      button={render(button)}
-      back={back ? render(back) : undefined}
-    />
-  ),
+  ) => {
+    const [isLoading, setIsLoading] = useState(true); // Начальное состояние загрузки
+    const [delayedStep, setDelayedStep] = useState(step);
+
+    useEffect(() => {
+      // Показываем загрузку при монтировании
+      const initialTimeout = setTimeout(() => {
+        setIsLoading(false); // Скрыть загрузку после инициализации
+      }, 1000);
+
+      return () => clearTimeout(initialTimeout);
+    }, []);
+
+    useEffect(() => {
+      if (step !== delayedStep) {
+        setIsLoading(true); // Показать загрузку перед переключением
+        const timeout = setTimeout(() => {
+          setDelayedStep(step); // Обновить шаг
+          setIsLoading(false); // Скрыть загрузку после переключения
+        }, 1000);
+
+        return () => clearTimeout(timeout);
+      }
+    }, [step, delayedStep]);
+
+    if (isLoading) {
+      return <LoadingScreen />; // Рендер индикатора загрузки
+    }
+
+    return (
+      <FormLayout
+        step={delayedStep}
+        heading={heading}
+        description={description}
+        fields={fields.map((field, index) => (
+          <Fragment key={index}>{render(field)}</Fragment>
+        ))}
+        button={render(button)}
+        back={back ? render(back) : undefined}
+      />
+    );
+  },
+
   next: ({ text }) => <Next>{text}</Next>,
   back: ({ onBack }) => <Back onBack={onBack} />,
   textField: ({ name, label }) => <TextField name={name} label={label} />,
@@ -87,3 +118,12 @@ const components: Components<Parameters> = {
 };
 
 export default components;
+
+const LoadingScreen = () => (
+  <div className="flex items-center justify-center h-full w-full ">
+    <div className="flex flex-col items-center">
+      <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-blue-500"></div>
+      <p className="mt-4 text-white text-lg">Loading...</p>
+    </div>
+  </div>
+);
