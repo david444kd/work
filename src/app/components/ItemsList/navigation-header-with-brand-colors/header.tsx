@@ -26,8 +26,11 @@ import { Icon } from "@iconify/react";
 import { AcmeIcon } from "./social";
 import { useFilter } from "../../FilterContext";
 import { data } from "../../../data";
+import { useUser, UserButton } from "@stackframe/stack";
 
 export default function Header() {
+  let user = useUser();
+
   const [countries, setCountries] = useState<string[]>([]);
   const [categories, setCategories] = useState<string[]>([]);
   const [types, setTypes] = useState<string[]>([]);
@@ -315,6 +318,19 @@ export default function Header() {
         {/* Mobile Menu */}
         <NavbarMenu>
           <NavbarItem className="flex flex-col gap-4 w-1/3">
+            <p className="truncate text-small font-medium text-default-600">
+              {user?.primaryEmail}
+            </p>
+            {/* <Image ref={{user?.profileImageUrl}} /> */}
+
+            <Link
+              className=""
+              onClick={() => {
+                user?.signOut();
+              }}
+            >
+              Signout
+            </Link>
             {countries.length > 1 &&
               countries.map((country) => (
                 <Button
