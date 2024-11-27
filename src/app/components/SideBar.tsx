@@ -109,11 +109,11 @@ export default function SideBar2() {
               hidden: isCompact,
             })}
           >
-            <p className="truncate text-small font-medium text-default-600">
+            {/* <p className="truncate text-small font-medium text-default-600">
               {user?.primaryEmail}
-            </p>
+            </p> */}
             {/* <Image ref={{user?.profileImageUrl}} /> */}
-
+            {/* 
             <Link
               className=""
               onClick={() => {
@@ -121,7 +121,7 @@ export default function SideBar2() {
               }}
             >
               Signout
-            </Link>
+            </Link> */}
             {/* <Link href="/account">kjkfj</Link> */}
           </div>
         </div>

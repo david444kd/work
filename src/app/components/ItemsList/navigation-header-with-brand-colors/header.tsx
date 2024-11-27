@@ -290,19 +290,44 @@ export default function Header() {
               </DropdownTrigger>
               <DropdownMenu aria-label="Profile Actions" variant="flat">
                 <DropdownItem key="profile" className="h-14 gap-2">
-                  <p className="font-semibold">Signed in as</p>
-                  <p className="font-semibold">johndoe@example.com</p>
+                  {/* <p className="font-semibold">Signed in as</p>
+                  <p className="font-semibold">johndoe@example.com</p> */}
+                  <p className=" text-small font-medium text-default-900">
+                    {user?.primaryEmail}
+                  </p>
                 </DropdownItem>
-                <DropdownItem key="settings">My Settings</DropdownItem>
+
+                {/* <Image ref={{user?.profileImageUrl}} /> */}
+
+                {/* <Link
+                  className=""
+                  onClick={() => {
+                    user?.signOut();
+                  }}
+                >
+                  Signout
+                </Link> */}
+                {/* <DropdownItem key="settings">My Settings</DropdownItem>
                 <DropdownItem key="team_settings">Team Settings</DropdownItem>
                 <DropdownItem key="analytics">Analytics</DropdownItem>
                 <DropdownItem key="system">System</DropdownItem>
                 <DropdownItem key="configurations">Configurations</DropdownItem>
                 <DropdownItem key="help_and_feedback">
                   Help & Feedback
-                </DropdownItem>
-                <DropdownItem key="logout" color="danger">
-                  Log Out
+                </DropdownItem> */}
+                <DropdownItem
+                  key="logout"
+                  color="danger"
+                  className="text-default-100"
+                >
+                  <p
+                    onClick={() => {
+                      user?.signOut();
+                    }}
+                    className="text-default-900"
+                  >
+                    Log out
+                  </p>
                 </DropdownItem>
               </DropdownMenu>
             </Dropdown>
@@ -318,19 +343,8 @@ export default function Header() {
         {/* Mobile Menu */}
         <NavbarMenu>
           <NavbarItem className="flex flex-col gap-4 w-1/3">
-            <p className="truncate text-small font-medium text-default-600">
-              {user?.primaryEmail}
-            </p>
             {/* <Image ref={{user?.profileImageUrl}} /> */}
 
-            <Link
-              className=""
-              onClick={() => {
-                user?.signOut();
-              }}
-            >
-              Signout
-            </Link>
             {countries.length > 1 &&
               countries.map((country) => (
                 <Button
