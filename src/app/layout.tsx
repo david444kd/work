@@ -39,7 +39,7 @@ export default async function RootLayout({
                   <>
                     <Suspense
                       fallback={
-                        <div className="flex absolute left-0 top-0 items-center justify-center h-screen w-screen ">
+                        <div className="flex z-50 fixed inset-0 items-center justify-center bg-black">
                           <div className="flex flex-col items-center">
                             <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-blue-500"></div>
                             <p className="mt-4 text-white text-lg">
@@ -50,15 +50,14 @@ export default async function RootLayout({
                       }
                     >
                       <SideBar2 />
-                    </Suspense>
-                    <div className="flex justify-end ">{children}</div>
-                    <div className="w-full flex justify-end">
-                      <div className="sm:w-[65%] lg:w-[75%] ">
-                        <Suspense fallback={<Loading />}>
+
+                      <div className="flex justify-end ">{children}</div>
+                      <div className="w-full flex justify-end">
+                        <div className="sm:w-[65%] lg:w-[75%] ">
                           <PageFooter />
-                        </Suspense>
+                        </div>
                       </div>
-                    </div>
+                    </Suspense>
                   </>
                 ) : (
                   <>
