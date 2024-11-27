@@ -23,7 +23,7 @@ export default function CustomCredentialSignIn() {
   };
 
   return (
-    <div className="flex flex-col gap-3 justify-center items-center w-[30vw]">
+    <div className="flex flex-col gap-3 justify-center items-center min-w-[300px]">
       <h1 className="text-lg text-default-900">Sign in to your account</h1>
       <p className="text-default-900">
         Don&apos;t have an account?{" "}

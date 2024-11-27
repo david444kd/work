@@ -31,6 +31,7 @@ type Parameters = {
     fields: Value[];
     button: Value;
     back?: Value;
+    step?: Step;
   };
   next: {
     text: string;
@@ -63,8 +64,12 @@ const components: Components<Parameters> = {
       {render(children)}
     </Form>
   ),
-  formLayout: ({ heading, description, fields, button, back }, render) => (
+  formLayout: (
+    { heading, description, fields, button, back, step },
+    render
+  ) => (
     <FormLayout
+      step={step}
       heading={heading}
       description={description}
       fields={fields.map((field, index) => (

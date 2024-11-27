@@ -1,106 +1,3 @@
-// import { Schema } from "formity";
-
-// const schema: Schema = [
-//   {
-//     form: {
-//       defaultValues: {
-//         name: ["", []],
-//         age: [18, []],
-//       },
-//       resolver: {
-//         name: [
-//           [{ "#$ne": ["#$name", ""] }, "Required"],
-//           [{ "#$lt": [{ "#$strLen": "#$name" }, 20] }, "No more than 20 chars"],
-//         ],
-//       },
-//       render: {
-//         form: {
-//           step: "$step",
-//           defaultValues: "$defaultValues",
-//           resolver: "$resolver",
-//           onNext: "$onNext",
-//           children: {
-//             formLayout: {
-//               heading: "Tell us about yourself",
-//               description: "We would want to know a little bit more about you",
-//               fields: [
-//                 {
-//                   textField: {
-//                     name: "name",
-//                     label: "Name",
-//                   },
-//                 },
-//                 {
-//                   numberField: {
-//                     name: "age",
-//                     label: "Age",
-//                   },
-//                 },
-//               ],
-//               button: {
-//                 next: { text: "Next" },
-//               },
-//             },
-//           },
-//         },
-//       },
-//     },
-//   },
-//   {
-//     cond: {
-//       if: { $gte: ["$age", 18] },
-//       then: [
-//         {
-//           form: {
-//             defaultValues: {
-//               drive: [true, []],
-//             },
-//             resolver: {},
-//             render: {
-//               form: {
-//                 step: "$step",
-//                 defaultValues: "$defaultValues",
-//                 resolver: "$resolver",
-//                 onNext: "$onNext",
-//                 children: {
-//                   formLayout: {
-//                     heading: "Can you drive?",
-//                     description: "We would want to know if you can drive",
-//                     fields: [
-//                       {
-//                         yesNo: {
-//                           name: "drive",
-//                           label: "Drive",
-//                         },
-//                       },
-//                     ],
-//                     button: {
-//                       next: { text: "Next" },
-//                     },
-//                     back: {
-//                       back: { onBack: "$onBack" },
-//                     },
-//                   },
-//                 },
-//               },
-//             },
-//           },
-//         },
-//       ],
-//       else: [{ variables: { drive: false } }],
-//     },
-//   },
-//   {
-//     return: {
-//       name: "$name",
-//       age: "$age",
-//       drive: "$drive",
-//     },
-//   },
-// ];
-
-// export default schema;
-
 import { Schema } from "formity";
 
 const schema: Schema = [
@@ -114,9 +11,14 @@ const schema: Schema = [
           [{ "#$ne": ["#$website", ""] }, "Required"],
           [
             {
-              "#$regex": [
+              "#$fn": [
                 "#$website",
-                "^(https?:\\/\\/)?([\\w\\-]+(\\.[\\w\\-]+)+[\\/\\w\\-]*)?$",
+                `(value) => {
+                  const urlPattern = new RegExp(
+                    '^https?:\\/\\/(?:[a-zA-Z0-9-]+\\.)+[a-zA-Z]{2,}(?:\\/.*)?$'
+                  );
+                  return urlPattern.test(value);
+                }`,
               ],
             },
             "Please enter a valid website URL",
@@ -145,6 +47,7 @@ const schema: Schema = [
               button: {
                 next: { text: "Next" },
               },
+              step: "$step",
             },
           },
         },
@@ -228,6 +131,7 @@ const schema: Schema = [
               back: {
                 back: { onBack: "$onBack" },
               },
+              step: "$step",
             },
           },
         },
