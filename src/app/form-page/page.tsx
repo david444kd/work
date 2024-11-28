@@ -50,7 +50,8 @@ export default function Home() {
 
     // Передача данных напрямую в res
     res(result);
-    router.push("/");
+    const iframeSrc = encodeURIComponent(result.website); // Или другой параметр
+    router.push(`/resultPage?src=${iframeSrc}`);
   }
 
   const res = async (data: FormData) => {
