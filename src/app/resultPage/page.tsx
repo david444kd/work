@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { Separator } from "@/components/ui/separator";
 import { Card, CardHeader, CardBody } from "@nextui-org/card";
 import { useSearchParams } from "next/navigation";
-const page = () => {
+const Page = () => {
   const searchParams = useSearchParams();
   const iframeSrc = searchParams.get("src") || "https://book.greatleads.ru/";
 
@@ -148,4 +148,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
