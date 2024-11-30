@@ -1,14 +1,93 @@
 "use client";
 
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Separator } from "@/components/ui/separator";
 import { Card, CardHeader, CardBody } from "@nextui-org/card";
 import { useSearchParams } from "next/navigation";
+import toast, { Toaster } from "react-hot-toast";
 const Page = () => {
   const searchParams = useSearchParams();
-  const iframeSrc = searchParams.get("src") || "https://book.greatleads.ru/";
+  const [iframeError, setIframeError] = useState(false);
+
+  const ensureProtocol = (url: string): string => {
+    if (!url) {
+      return "https://book.greatleads.ru/";
+    }
+
+    url = url.trim();
+
+    if (!url.startsWith("http://") && !url.startsWith("https://")) {
+      return `https://${url}`;
+    }
+    return url;
+  };
+
+  const [iframeSrc, setIframeSrc] = useState(() => {
+    const initialSrc = searchParams.get("src") || "https://book.greatleads.ru/";
+    return ensureProtocol(initialSrc);
+  });
+
+  const validateURL = (url: string): boolean => {
+    try {
+      const parsedUrl = new URL(url);
+      return (
+        ["http:", "https:"].includes(parsedUrl.protocol) &&
+        parsedUrl.hostname.includes(".")
+      );
+    } catch {
+      return false;
+    }
+  };
+
+  const processURL = async (url: string): Promise<string> => {
+    url = ensureProtocol(url);
+
+    if (!validateURL(url)) {
+      console.warn("Некорректный URL. Используется URL по умолчанию.");
+      // toast.error("URL validation failed.");
+      setIframeError(true);
+      return "https://book.greatleads.ru/";
+    }
+
+    try {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 3000); // 3 секунды тайм-аут
+
+      const response = await fetch(url, {
+        method: "HEAD",
+        signal: controller.signal,
+        mode: "no-cors",
+      });
+
+      clearTimeout(timeoutId);
+
+      if (response.type === "opaque" || response.ok) {
+        return url;
+      } else {
+        console.warn(`Ошибка доступа к URL: ${response.status}`);
+        // toast.error("Could not access the URL.");
+        setIframeError(true);
+        return "https://book.greatleads.ru/";
+      }
+    } catch (err: any) {
+      // toast.error("URL check failed.");
+      console.warn(`Ошибка проверки URL: ${err.message}`);
+      setIframeError(true);
+      return url;
+    }
+  };
 
   useEffect(() => {
+    const validateAndUpdateURL = async () => {
+      const currentSrc = searchParams.get("src");
+      if (currentSrc) {
+        const validatedSrc = await processURL(currentSrc);
+        setIframeSrc(validatedSrc);
+      }
+    };
+
+    validateAndUpdateURL();
+
     const hideSidebar = () => {
       const sidebar = document.getElementById("sidebar");
       const footer = document.getElementById("footer");
@@ -28,19 +107,47 @@ const Page = () => {
       if (sidebar) sidebar.style.display = "";
       if (footer) footer.style.display = "";
     };
-  }, []);
+  }, [searchParams]);
+
   return (
     <div className="grid grid-cols-1 gap-5 md:gap-10 p-5 md:p-10 md:grid-cols-2 w-full h-screen m-auto">
-      {/* Контейнер для iframe */}
       <div className="w-full h-[50vh] md:h-screen flex">
-        <iframe
+        {/* <iframe
           src={iframeSrc}
           className="w-full h-full"
           style={{ border: "none" }}
-        ></iframe>
+        ></iframe> */}
+        {!iframeError ? (
+          <iframe
+            src={iframeSrc}
+            className="w-full h-full"
+            style={{ border: "none" }}
+            onError={() => setIframeError(true)}
+          ></iframe>
+        ) : (
+          <div className="w-full h-full flex items-center justify-center bg-gray-100 p-10 text-center">
+            <div>
+              <h2 className="text-3xl font-bold text-red-600 mb-4">
+                Ошибка загрузки
+              </h2>
+              <p className="text-xl text-gray-700 mb-6">
+                К сожалению, не удалось загрузить страницу. Вероятно ошибка в
+                введеном вами адресе, пожалуйста, замените адрес сайта или
+                попробуйте позже.
+              </p>
+              <div className="flex justify-center space-x-4">
+                <button
+                  onClick={() => window.location.reload()}
+                  className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition"
+                >
+                  Перезагрузить страницу
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
 
-      {/* Контейнер для карточки */}
       <div className="w-full flex flex-col items-center justify-center md:h-screen h-[40vh]">
         <Card className="w-full h-full">
           <CardHeader className="px-5">UX Annotations</CardHeader>
@@ -50,7 +157,6 @@ const Page = () => {
           <CardBody className="overflow-auto px-5">
             <div className="mb-5 text-2xl font-semibold">HomePage</div>
 
-            {/* Секции описаний */}
             <section className="mb-6">
               <div className="flex items-center space-x-4 mb-2">
                 <div className="w-8 h-8 bg-red-500 text-white flex justify-center items-center rounded-full">

@@ -64,7 +64,7 @@ const components: Components<Parameters> = {
       {render(children)}
     </Form>
   ),
-  formLayout: FormLayoutComponent, // Используем новый компонент
+  formLayout: FormLayoutComponent,
   next: ({ text }) => <Next>{text}</Next>,
   back: ({ onBack }) => <Back onBack={onBack} />,
   textField: ({ name, label }) => <TextField name={name} label={label} />,
@@ -85,13 +85,12 @@ function FormLayoutComponent(
   }: Parameters["formLayout"],
   render: any
 ) {
-  const [isLoading, setIsLoading] = useState(true); // Начальное состояние загрузки
+  const [isLoading, setIsLoading] = useState(true);
   const [delayedStep, setDelayedStep] = useState(step);
 
   useEffect(() => {
-    // Показываем загрузку при монтировании
     const initialTimeout = setTimeout(() => {
-      setIsLoading(false); // Скрыть загрузку после инициализации
+      setIsLoading(false);
     }, 1000);
 
     return () => clearTimeout(initialTimeout);
@@ -99,10 +98,10 @@ function FormLayoutComponent(
 
   useEffect(() => {
     if (step !== delayedStep) {
-      setIsLoading(true); // Показать загрузку перед переключением
+      setIsLoading(true);
       const timeout = setTimeout(() => {
-        setDelayedStep(step); // Обновить шаг
-        setIsLoading(false); // Скрыть загрузку после переключения
+        setDelayedStep(step);
+        setIsLoading(false);
       }, 1000);
 
       return () => clearTimeout(timeout);
@@ -110,7 +109,7 @@ function FormLayoutComponent(
   }, [step, delayedStep]);
 
   if (isLoading) {
-    return <LoadingScreen />; // Рендер индикатора загрузки
+    return <LoadingScreen />;
   }
 
   return (
@@ -127,7 +126,6 @@ function FormLayoutComponent(
   );
 }
 
-// Компонент для отображения индикатора загрузки
 const LoadingScreen = () => (
   <div className="flex z-50 fixed inset-0 items-center justify-center bg-black">
     <div className="flex flex-col items-center">

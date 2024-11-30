@@ -46,11 +46,10 @@ export default function Home() {
     const result = data as FormData;
     console.log("Полученные данные:", result);
 
-    setResult(result); // Обновление состояния (для других целей, если нужно)
+    setResult(result);
 
-    // Передача данных напрямую в res
     res(result);
-    const iframeSrc = encodeURIComponent(result.website); // Или другой параметр
+    const iframeSrc = encodeURIComponent(result.website);
     router.push(`/resultPage?src=${iframeSrc}`);
   }
 
@@ -66,7 +65,6 @@ export default function Home() {
       ],
     ];
 
-    // Логируем, чтобы убедиться, что это двумерный массив
     console.log("Проверяем формат данных перед отправкой:", rows);
 
     try {

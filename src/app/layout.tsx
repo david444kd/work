@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { SignUp, StackProvider, StackTheme, SignIn } from "@stackframe/stack";
 import { stackServerApp } from "../stack";
-
+import toast, { Toaster } from "react-hot-toast";
 import "./layout.css";
 import { NextUIProvider } from "@nextui-org/react";
 import { PageFooter } from "./components/PageFooter";
@@ -49,6 +49,7 @@ export default async function RootLayout({
                         </div>
                       }
                     >
+                      <Toaster position="top-center" />
                       <SideBar2 />
 
                       <div className="flex justify-end ">{children}</div>
