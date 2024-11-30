@@ -655,7 +655,7 @@ const Steps = ({ step }: { step: number }) => {
     <div className="flex gap-5">
       <p className={step === 1 ? "text-blue-500" : "text-white"}>Set up</p>
       <p className={step === 2 ? "text-blue-500" : "text-white"}>Confirm</p>
-      <p className={step === 3 ? "text-blue-500" : "text-white"}>Step 3</p>
+      <p className={step === 3 ? "text-blue-500" : "text-white"}>Final</p>
     </div>
   );
 };
