@@ -50,18 +50,18 @@ export default function Home() {
 
     res(result);
     const iframeSrc = encodeURIComponent(result.website);
-    router.push(`/resultPage?src=${iframeSrc}`);
+    router.push("/");
   }
 
   const res = async (data: FormData) => {
     const rows = [
       [
-        data.website,
-        data.targetAudience,
-        data.productDescription,
-        data.price,
-        data.market,
-        data.companyDescription,
+        localStorage.getItem("website"),
+        localStorage.getItem("targetAudience"),
+        localStorage.getItem("productDescription"),
+        localStorage.getItem("price"),
+        localStorage.getItem("market"),
+        localStorage.getItem("companyDescription"),
       ],
     ];
 
@@ -84,6 +84,12 @@ export default function Home() {
         console.error("Ошибка при запросе:", response.status, errorText);
       } else {
         console.log("Данные успешно отправлены:", await response.json());
+        localStorage.removeItem("website");
+        localStorage.removeItem("targetAudience");
+        localStorage.removeItem("productDescription");
+        localStorage.removeItem("price");
+        localStorage.removeItem("market");
+        localStorage.removeItem("companyDescription");
       }
     } catch (err) {
       console.error("Ошибка при выполнении fetch:", err);
