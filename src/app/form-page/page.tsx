@@ -5,6 +5,7 @@ import { Formity, Value } from "formity";
 import components from "./component";
 import schema from "./schema";
 
+import { useUser, UserButton } from "@stackframe/stack";
 import { useRouter } from "next/navigation";
 
 type FormData = {
@@ -17,10 +18,57 @@ type FormData = {
 };
 
 export default function Home() {
+  let user = useUser();
+  const [userEmail, setUserEmail] = useState<any>();
   const router = useRouter();
   const [result, setResult] = useState<FormData | null>(null);
 
+  const sendData = async () => {
+    // const data = {
+    //   website: localStorage.getItem("website"),
+    //   targetAudience: localStorage.getItem("targetAudience"),
+    //   productDescription: localStorage.getItem("productDescription"),
+    //   price: localStorage.getItem("price"),
+    //   market: localStorage.getItem("market"),
+    //   companyDescription: localStorage.getItem("companyDescription"),
+    // };
+    const data = {
+      websiteUrl: localStorage.getItem("website"),
+      companyName: localStorage.getItem("companyDescription"),
+      productDescription: localStorage.getItem("productDescription"),
+      targetMarket: localStorage.getItem("market"),
+      targetAudienceDescription: localStorage.getItem("targetAudience"),
+      primaryObjective: "increase conversions",
+      costStructure: localStorage.getItem("price"),
+      marketSpecificInsights:
+        "Localized case studies are important for this market.",
+    };
+
+    try {
+      const response = await fetch("/api/openai", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) {
+        throw new Error(`Error: ${response.status}`);
+      }
+
+      const result = await response.json();
+      console.log("jghfjkghfj", result.analysis);
+      res(result.analysis);
+    } catch (err) {
+      console.error("ChatNeRabotaet", err);
+    }
+  };
+
   useEffect(() => {
+    setUserEmail(user?.primaryEmail);
+    console.log("userEmail:", user?.primaryEmail);
+
     const hideSidebar = () => {
       const sidebar = document.getElementById("sidebar");
       const footer = document.getElementById("footer");
@@ -48,20 +96,24 @@ export default function Home() {
 
     setResult(result);
 
-    res(result);
+    sendData();
+
+    // res(result);
     const iframeSrc = encodeURIComponent(result.website);
     router.push("/");
   }
 
-  const res = async (data: FormData) => {
+  const res = async (response: any) => {
     const rows = [
       [
+        userEmail,
         localStorage.getItem("website"),
         localStorage.getItem("targetAudience"),
         localStorage.getItem("productDescription"),
         localStorage.getItem("price"),
         localStorage.getItem("market"),
         localStorage.getItem("companyDescription"),
+        response,
       ],
     ];
 
