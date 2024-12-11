@@ -113,6 +113,7 @@ const requestSchema = z
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   console.log("Received Request Body:", req.body);
+  console.log("API Key:", process.env.OPENAI_API_KEY ? "Exists" : "Missing");
 
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Method not allowed" });
