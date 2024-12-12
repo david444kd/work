@@ -17,21 +17,23 @@ type FormData = {
   companyDescription: string;
 };
 
+const LoadingScreen = () => (
+  <div className="flex z-50 fixed inset-0 items-center justify-center bg-black">
+    <div className="flex flex-col items-center">
+      <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-blue-500"></div>
+      <p className="mt-4 text-white text-lg">Request processing...</p>
+    </div>
+  </div>
+);
+
 export default function Home() {
   let user = useUser();
   const [userEmail, setUserEmail] = useState<any>();
-  const router = useRouter();
+  const [isLoading, setIsLoading] = useState(false);
   const [result, setResult] = useState<FormData | null>(null);
+  const router = useRouter();
 
   const sendData = async () => {
-    // const data = {
-    //   website: localStorage.getItem("website"),
-    //   targetAudience: localStorage.getItem("targetAudience"),
-    //   productDescription: localStorage.getItem("productDescription"),
-    //   price: localStorage.getItem("price"),
-    //   market: localStorage.getItem("market"),
-    //   companyDescription: localStorage.getItem("companyDescription"),
-    // };
     const data = {
       websiteUrl: localStorage.getItem("website"),
       companyName: localStorage.getItem("companyDescription"),
@@ -43,6 +45,8 @@ export default function Home() {
       marketSpecificInsights:
         "Localized case studies are important for this market.",
     };
+
+    setIsLoading(true); // Показать экран загрузки
 
     try {
       const response = await fetch("/api/openai", {
@@ -58,10 +62,12 @@ export default function Home() {
       }
 
       const result = await response.json();
-      console.log("jghfjkghfj", result.analysis);
+      console.log("Ответ анализа:", result.analysis);
       res(result.analysis);
     } catch (err) {
-      console.error("ChatNeRabotaet", err);
+      console.error("Ошибка запроса к OpenAI API:", err);
+    } finally {
+      setIsLoading(false); // Скрыть экран загрузки
     }
   };
 
@@ -98,7 +104,6 @@ export default function Home() {
 
     sendData();
 
-    // res(result);
     const iframeSrc = encodeURIComponent(result.website);
     router.push("/");
   }
@@ -150,6 +155,7 @@ export default function Home() {
 
   return (
     <div className="flex w-full bg-black z-50 h-screen items-center justify-center">
+      {isLoading && <LoadingScreen />}
       <Formity
         components={components}
         schema={schema}
