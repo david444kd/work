@@ -94,7 +94,7 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import { z } from "zod";
 import OpenAI from "openai";
-import { zodResponseFormat } from "openai/helpers/zod.mjs";
+import { zodResponseFormat } from "openai/helpers/zod";
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
