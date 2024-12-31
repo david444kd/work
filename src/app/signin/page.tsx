@@ -1,5 +1,5 @@
 "use client";
-import { Link } from "@nextui-org/react";
+import { Button, Link } from "@nextui-org/react";
 import { useStackApp } from "@stackframe/stack";
 import { useState } from "react";
 
@@ -56,9 +56,8 @@ export default function CustomCredentialSignIn() {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button className="bg-white text-black rounded-lg p-1" type="submit">
-          Sign In
-        </button>
+
+        <Button type="submit">Sign In</Button>
       </form>
     </div>
   );

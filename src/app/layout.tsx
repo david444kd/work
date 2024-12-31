@@ -28,7 +28,7 @@ export default async function RootLayout({
     <html
       id="home"
       lang="en"
-      className="dark bg-background text-foreground sm:ml-20 sm:mr-20 sm:mb-20"
+      className=" text-foreground sm:ml-20 sm:mr-20 sm:mb-20"
     >
       <body className="relative bg-background">
         <StackProvider app={stackServerApp}>
@@ -64,7 +64,6 @@ export default async function RootLayout({
                   <>
                     <Suspense fallback={<Loading />}>
                       <div className="h-screen flex items-center justify-center">
-                        {/* <SignIn /> */}
                         <AuthPage />
                       </div>
                     </Suspense>

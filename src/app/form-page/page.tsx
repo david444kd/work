@@ -46,7 +46,7 @@ export default function Home() {
         "Localized case studies are important for this market.",
     };
 
-    setIsLoading(true); // Показать экран загрузки
+    setIsLoading(true);
 
     try {
       const response = await fetch("/api/openai", {
@@ -75,25 +75,25 @@ export default function Home() {
     setUserEmail(user?.primaryEmail);
     console.log("userEmail:", user?.primaryEmail);
 
-    const hideSidebar = () => {
-      const sidebar = document.getElementById("sidebar");
-      const footer = document.getElementById("footer");
-      if (sidebar) sidebar.style.display = "none";
-      if (footer) footer.style.display = "none";
-    };
+    // const hideSidebar = () => {
+    //   const sidebar = document.getElementById("sidebar");
+    //   const footer = document.getElementById("footer");
+    //   if (sidebar) sidebar.style.display = "none";
+    //   if (footer) footer.style.display = "none";
+    // };
 
-    hideSidebar();
+    // hideSidebar();
 
-    const observer = new MutationObserver(hideSidebar);
-    observer.observe(document.body, { childList: true, subtree: true });
+    // const observer = new MutationObserver(hideSidebar);
+    // observer.observe(document.body, { childList: true, subtree: true });
 
-    return () => {
-      observer.disconnect();
-      const sidebar = document.getElementById("sidebar");
-      const footer = document.getElementById("footer");
-      if (sidebar) sidebar.style.display = "";
-      if (footer) footer.style.display = "";
-    };
+    // return () => {
+    //   observer.disconnect();
+    //   const sidebar = document.getElementById("sidebar");
+    //   const footer = document.getElementById("footer");
+    //   if (sidebar) sidebar.style.display = "";
+    //   if (footer) footer.style.display = "";
+    // };
   }, []);
 
   function handleReturn(data: unknown) {
@@ -154,7 +154,7 @@ export default function Home() {
   };
 
   return (
-    <div className="flex w-full bg-black z-50 h-screen items-center justify-center">
+    <div className="flex w-[80%] sm:w-[75%] h-screen items-center justify-center">
       {isLoading && <LoadingScreen />}
       <Formity
         components={components}

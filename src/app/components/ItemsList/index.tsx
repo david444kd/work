@@ -86,7 +86,7 @@ export const ItemsList = ({ data }: { data: any[] }) => {
       </Modal>
       <div
         id="itemlist"
-        className="grid grid-cols-1 gap-7 dark bg-background text-foreground w-[83%] md:w-[59%] md:mr-[20%]"
+        className="grid grid-cols-1 gap-7  text-foreground w-[83%] md:w-[59%] md:mr-[20%]"
       >
         <div className="mt-24 ml-10 flex flex-col gap-4 col-span-1">
           <h1 className="text-4xl font-bold">

@@ -2,7 +2,7 @@
 
 import { useStackApp } from "@stackframe/stack";
 import { useState } from "react";
-import { Link } from "@nextui-org/react";
+import { Button, Link } from "@nextui-org/react";
 
 export default function CustomCredentialSignUp() {
   const [email, setEmail] = useState("");
@@ -56,9 +56,7 @@ export default function CustomCredentialSignUp() {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button className="bg-white text-black rounded-lg p-1" type="submit">
-          Sign Up
-        </button>
+        <Button type="submit">Sign Up</Button>
       </form>
     </div>
   );
