@@ -771,8 +771,8 @@ const ScoreCard = () => {
           </DialogTitle>
           <p className="text-2xl text-center text-blue-600 px-1">$49/mounth</p>
           <DialogDescription className="text-center">
-            To access this feature and continue enjoying our services, you'll
-            need to upgrade your plan.
+            To access this feature and continue enjoying our services,
+            you&apos;ll need to upgrade your plan.
           </DialogDescription>
         </DialogHeader>
         <div className="mb-8 space-y-4">
